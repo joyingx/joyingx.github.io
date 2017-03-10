@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JoyingX&#39;s Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://joyingx.me/"/>
+  <updated>2016-01-01T03:31:31.000Z</updated>
+  <id>http://joyingx.me/</id>
+  
+  <author>
+    <name>Joying Xie</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2015 年终总结</title>
+    <link href="http://joyingx.me/2016/01/01/2015-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <id>http://joyingx.me/2016/01/01/2015-年终总结/</id>
+    <published>2016-01-01T00:53:22.000Z</published>
+    <updated>2016-01-01T03:31:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直都没有写年终总结的习惯，总是觉得：没什么好写的；过去一年发生的事有记忆记录着，没必要靠文字来记录。也是因为懒，懒得去写什么长篇大论的总结。现在开始不一样了，过去一年发生的事太多了，也是这一年开始发觉记忆不太好使了。内心想说的话，该用文字记录下来，否则怕自己忘了，怕未来丢失了现在的自己。  </p>
+<a id="more"></a>
+<h2 id="离开了安静与无忧之地"><a href="#离开了安静与无忧之地" class="headerlink" title="离开了安静与无忧之地"></a>离开了安静与无忧之地</h2><p>过去的 2015 年，离开了束缚我 16 年之久的校园。虽然早在 2014 年中就出来社会了，但内心总觉得自己还是学生，什么时候不想工作了，还可以任性地逃回安静的校园，摆脱社会的喧嚣。然而，就在这年六月拿完学位证和毕业证之后，内心安静不下来了。以前的自己觉得，离开了校园就能获得完全的自由，不用再受到任何的束缚。现在才发现，离开校园走向社会，只不过是从一个不自由的地方走向另一个更加不自由的地方。表面上你觉得什么都可以不经过父母由自己做主，而实际上不经过父母还是不能自己做主，你的上方总会有各种力量试图控制你，驱使着你。你所能做的，只是强化自己的内心，用以对抗外界的力量。</p>
+<h2 id="关于生活"><a href="#关于生活" class="headerlink" title="关于生活"></a>关于生活</h2><p>年中租了个新的地方，摆脱了城中村的吵杂，空间也大了很多，但是价格翻了一番。刚出来还是对怎么租房不了解，找的地方生活不是很便利，也没怎么和房东讨价，似乎水电费也比普通的高。主要问题还是自己总是在逃避麻烦，有了这次经验，以后也知道要怎么找了。一件事如果无论如何都要做，那就想办法把它做到最好吧。  </p>
+<p>一年下来跑了不少次医院，一次因为过敏引起的休克，一次吃辣的引起的肠胃不适，一次慢性鼻炎导致的呼吸困难感，还有好多次是因为补牙和医保。  </p>
+<p>年初计划一年要有两次的旅行，一次也没有去成，各种因素导致的，也是一份遗憾。世界那么大，应该出去看看的。</p>
+<h2 id="关于学习"><a href="#关于学习" class="headerlink" title="关于学习"></a>关于学习</h2><p>因为工作内容的缘故，iOS 技术方面并没有太大的长进。仅仅是 Core Animation 有了一定的长进，也是因为做了太多 UI 方面的工作。学习了 Swift，但只停留在自己练练的状态，没有太多的施展机会。</p>
+<p>学习了 Linux 相关的部分知识，买了半年多的 VPS，自己搭建过博客，试过各种搭建博客的技术，最后选择了 Hexo + GitHub Pages 的方式。搭过 Shadowsock 和 AnyConnect 的服务器，试过各种梯子，最后发现 Shadowsocks 最稳定，也只留下了 Shadowsocks 这种方式。</p>
+<p>有段时间觉得自己网络相关知识不足，便补了 TCP/IP 相关协议，深入学习了 HTTP 相关。看了《图解 TCP/IP》、《HTTP 权威指南》，也因为需要使用梯子的缘故，了解了很多梯子的原理，知道了 GFW 的运作原理。</p>
+<p>一年下来，多次想尝试做开源项目，但苦于没想法，迟迟没开始。只是稍微开源了自己工作中用到的一些工具，远远达不到自己想要的效果。</p>
+<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>换了一份工作，一年下来，工作的内容并没有施展拳脚的机会，多数时候是在做着重复的 UI 工作，这也是最近这段时间工作让我觉得心好累的原因。经历了 4 个月要被扣 20% 所得税的实习期，工作中做的 APP 也不是我会去用的，工作的幸福感骤然全失。2016 年的工作，是我应该好好考虑的问题了。</p>
+<h2 id="读过的书"><a href="#读过的书" class="headerlink" title="读过的书"></a>读过的书</h2><p>在上一年初，定下了读 50 本书（非技术）的计划，前期还能完成一星期一本书的计划，后期拖延症发作了，就荒废了。因为后期没有记录，只能凭着记忆找回后面读的书，大概是读了32本。  </p>
+<ol>
+<li>《程序员跳槽全攻略》  </li>
+<li>《省时省力的二八法则》  </li>
+<li>《王小波全集 第三卷》（推荐，特别喜欢王小波的文笔）  </li>
+<li>《生命最后的读书会》（推荐，一个领会生命的故事）  </li>
+<li>《开放的智力》  </li>
+<li>《把时间当作朋友》  </li>
+<li>《公正》  </li>
+<li>《国富论》  </li>
+<li>《悟空传》  </li>
+<li>《金钱有术》  </li>
+<li>《读书这么好的事》  </li>
+<li>《象与骑象人》  </li>
+<li>《基地》（推荐，《基地七部曲》第一本，不错的科幻小说）  </li>
+<li>《书法没有秘密》  </li>
+<li>《人人都是产品经理》  </li>
+<li>《基地与帝国》（推荐）    </li>
+<li>《第二基地》（推荐）  </li>
+<li>《把你的英语用起来》  </li>
+<li>《深度学习的艺术》  </li>
+<li>《我讲个故事，你可别当真啊》  </li>
+<li>《乔纳森传》  </li>
+<li>《风口上的猪》  </li>
+<li>《穷查理宝典》（推荐，查理芒格有太多值得学习的地方了）  </li>
+<li>《这样读书就够了》  </li>
+<li>《基地前奏》（推荐）  </li>
+<li>《迈向基地》（推荐）  </li>
+<li>《基地边缘》（推荐）  </li>
+<li>《基地与地球》（推荐）  </li>
+<li>《少有人走的路》（推荐）  </li>
+<li>《我，机器人》  </li>
+<li>《人人都能用英语》  </li>
+<li>《王小波全集 第四卷》（推荐）  </li>
+</ol>
+<h2 id="2016-展望"><a href="#2016-展望" class="headerlink" title="2016 展望"></a>2016 展望</h2><p>过去总会留下遗憾，那就努力用现在来弥补吧。定下两个现在就开始的计划：  </p>
+<ol>
+<li>能听说读的英语。学了那么多年英语，总是不能学好，只怪自己没有真正去花心思做。虽然现在英语不算差，但还远不及我想要的标准。花上这一年的时间，来达到自己想要的标准。</li>
+<li>阅读 50 本书。上一年没有完成的任务，今年把它完成了吧。</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一直都没有写年终总结的习惯，总是觉得：没什么好写的；过去一年发生的事有记忆记录着，没必要靠文字来记录。也是因为懒，懒得去写什么长篇大论的总结。现在开始不一样了，过去一年发生的事太多了，也是这一年开始发觉记忆不太好使了。内心想说的话，该用文字记录下来，否则怕自己忘了，怕未来丢失了现在的自己。  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://joyingx.me/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用 UIBezierPath 做一个局部透明的遮罩</title>
+    <link href="http://joyingx.me/2015/12/06/%E4%BD%BF%E7%94%A8UIBezierPath%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B1%80%E9%83%A8%E9%80%8F%E6%98%8E%E7%9A%84%E9%81%AE%E7%BD%A9/"/>
+    <id>http://joyingx.me/2015/12/06/使用UIBezierPath做一个局部透明的遮罩/</id>
+    <published>2015-12-05T22:57:30.000Z</published>
+    <updated>2015-12-06T01:34:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>前阵子的工作中需要做一个局部透明的遮罩效果（如下图），Google 了半天，找到的方法都是使用一张图来遮罩之类的，效果并不理想。又继续翻找文档，发现了可以使用 UIBezierPath 来实现这个效果。</p>
+<p><a href="/images/20151206/1.png"><img src="/images/20151206/1.png" alt="JYMaskView_Screenshot"></a><br><a id="more"></a></p>
+<p>使用 UIBezierPath ，我们可以绘制出矩形、圆、圆角矩形之类的图形。我们想象有一个填充满颜色的 UIView，只要在中间抠掉我们想要的图形的颜色，就可以实现局部透明的遮罩效果。而 UIBezierPath 的 usesEvenOddFillRule 属性和 CAShapeLayer 的 fillRule 属性可以帮我们实现这个过程。</p>
+<p>奇偶填充规则（Even Odd Fill Rule）指的是：在绘制 UIBezierPath 的过程中，会碰到同一个点被覆盖多次的情况。当一个点被覆盖偶数（0 属于偶数）次的时候，表示其位于图像外，而奇数次则表示位于图形内。位于图形内的点会被填充颜色，位于图形外的则不会。</p>
+<p><a href="/images/20151206/3.png"><img src="/images/20151206/3.png" alt="Diagram"></a> </p>
+<p>而我们要实现的效果的原理是，先用一个能填充满整个 UIView 的 UIBezierPath 做一次填充，然后在上面盖上我们想要的图形。这样，图形内的点会被覆盖奇数次，而图形外的点则会被覆盖偶数次。如此便能绘制出镂空的图形。</p>
+<p>要实现该效果，首先我们需要一个可以填充满 UIView 的 UIBezierPath：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">UIBezierPath</span> *overlayPath = [<span class="built_in">UIBezierPath</span> bezierPathWithRect:<span class="keyword">self</span>.bounds];</div><div class="line">[overlayPath setUsesEvenOddFillRule:<span class="literal">YES</span>];</div></pre></td></tr></table></figure></p>
+<p>再创建几个需要被抠掉的形状的 UIBezierPath：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">UIBezierPath</span> *transparentRectPath = [<span class="built_in">UIBezierPath</span> bezierPathWithRect:(<span class="number">20</span>, <span class="number">20</span>, <span class="number">100</span>, <span class="number">100</span>)];</div><div class="line"><span class="built_in">UIBezierPath</span> *transparentRoundedPath = </div><div class="line">    [<span class="built_in">UIBezierPath</span> bezierPathWithRoundedRect:<span class="built_in">CGRectMake</span>(<span class="number">20</span>, <span class="number">140</span>, <span class="number">100</span>, <span class="number">100</span>) cornerRadius:<span class="number">50</span>];</div><div class="line"></div></pre></td></tr></table></figure></p>
+<p>创建一个用于绘制 UIBezierPath 的 CAShapeLayer：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">CAShapeLayer</span> *fillLayer = [<span class="built_in">CAShapeLayer</span> layer];</div><div class="line">fillLayer.frame = <span class="keyword">self</span>.bounds;</div><div class="line">fillLayer.fillRule = kCAFillRuleEvenOdd;</div></pre></td></tr></table></figure></p>
+<p>将上面的图形附加到初始的那个 UIBezierPath 里，并赋给 CAShapeLayer 的 path 属性：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[overlayPath appendPath:transparentRectPath];</div><div class="line">[overlayPath appendPath:transparentRoundedPath];</div><div class="line"></div><div class="line">fillLayer.path = overlayPath.CGPath;</div><div class="line">fillLayer.fillRule = kCAFillRuleEvenOdd;</div><div class="line">fillLayer.fillColor = [<span class="built_in">UIColor</span> colorWithWhite:<span class="number">0</span> alpha:<span class="number">0.5</span>].CGColor;</div></pre></td></tr></table></figure></p>
+<p>最后，将该 CAShapeLayer 添加到指定 UIView 的 layer 的 subLayer 里面就可以。</p>
+<p>上述代码实现的效果如下：<br><a href="/images/20151206/2.png"><img src="/images/20151206/2.png" alt="Screenshot"></a> </p>
+<p>我花了点时间封装了一个可以复用此效果的 View，详细可以上我的 Github 查看：<a href="https://github.com/joyingx/JYMaskView" target="_blank" rel="external">JYMaskView</a>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前阵子的工作中需要做一个局部透明的遮罩效果（如下图），Google 了半天，找到的方法都是使用一张图来遮罩之类的，效果并不理想。又继续翻找文档，发现了可以使用 UIBezierPath 来实现这个效果。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/20151206/1.png&quot;&gt;&lt;img src=&quot;/images/20151206/1.png&quot; alt=&quot;JYMaskView_Screenshot&quot;&gt;&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://joyingx.me/categories/iOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NSMutableArray原理揭露</title>
+    <link href="http://joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/"/>
+    <id>http://joyingx.me/2015/05/03/NSMutableArray 原理揭露/</id>
+    <published>2015-05-03T14:40:17.000Z</published>
+    <updated>2015-06-15T00:27:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>本文翻译自 <a href="http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/" target="_blank" rel="external">Exposing NSMutableArray</a>，译文原地址为<a href="http://www.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/" target="_blank" rel="external">NSMutableArray 原理揭露</a>。</p>
+<p>以下为译文：</p>
+<p>我总好奇 <strong>NSMutableArray</strong> 内部是如何工作的。别误会，不可变数组确实提供了极大的便利。它们不仅线程安全，在对它们进行拷贝时也是完全自由的。但这些改变不了它们死板的事实——它们的内容不可被修改。我发现实际内存操作的细节很迷人，这也是我这篇文章聚焦于可变数组的原因。</p>
+<p>当我在说明我是如何研究 <strong>NSMutableArray</strong> 的整个过程时，这篇文章会得相当具有技术性。会有一整个章节讨论 <strong>ARM64 汇编</strong> (the ARM64 assembly)，所以当你感觉到无聊时，不要犹豫，直接跳过那部分内容。一旦我们讨论完那些底层细节，我会展示关于这个类的隐藏特性。</p>
+<p><strong>NSmutableArray</strong> 的实现细节之所以私有是有原因的。得益于其底下的子类 (underlying subclasses) 和 ivar 布局 (ivar layouts)，还有算法和数据结构的支撑，它们几乎可以随时改变。无视掉那些注意事项，我们值得去掀开 <strong>NSMutableArray</strong> 的引擎盖窥视一番，搞清楚它是如何工作的和能期望它做什么。接下来的学习基于 iOS 7.0 SDK。</p>
+<p>和往常一样，你可以在我的<a href="https://github.com/Ciechan/NSMutableArrayExplorer" target="_blank" rel="external">GitHub</a>上找到接下来的 Xcode 项目。<br><a id="more"></a></p>
+<h2 id="普通-C-数组的问题"><a href="#普通-C-数组的问题" class="headerlink" title="普通 C 数组的问题"></a>普通 C 数组的问题</h2><p>任何典型的程序员都知道 C 数组的原理。可以归结为一段能被方便读写的连续内存空间。数组和指针并不相同 (详见 <a href="http://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298" target="_blank" rel="external">Expert C Programming</a> 或 <a href="http://eli.thegreenplace.net/2009/10/21/are-pointers-and-arrays-equivalent-in-c/" target="_blank" rel="external">这篇文章</a>)，不能说：一块被 <strong>malloc</strong> 过的内存空间等同于一个数组 (一种被滥用了的说法)。</p>
+<p>使用一段线性内存空间的一个最明显的缺点是，在下标 0 处插入一个元素时，需要移动其它所有的元素，即 <strong>memmove</strong> 的原理：</p>
+<p><a href="/images/20150503/1.jpg"><img src="/images/20150503/1.jpg" alt="C 数组在下标 0 处插入元素"></a> </p>
+<p>同样地，假如想要保持相同的内存指针作为首个元素的地址，移除第一个元素需要进行相同的动作：</p>
+<p><a href="/images/20150503/2.jpg"><img src="/images/20150503/2.jpg" alt="C 数组移除下标 0 处的元素"></a></p>
+<p>当数组非常大时，这样很快会成为问题。显而易见，直接指针存取在数组的世界里必定不是最高级的抽象。C 风格的数组通常很有用，但 Obj-C 程序员每天的主要工作使得它们需要 <strong>NSMutableArray</strong> 这样一个可变的、可索引的容器。</p>
+<h2 id="NSMutableArray"><a href="#NSMutableArray" class="headerlink" title="NSMutableArray"></a>NSMutableArray</h2><h3 id="Diving-in"><a href="#Diving-in" class="headerlink" title="Diving in"></a>Diving in</h3><p>尽管苹果公布了很多库的源码，<strong>Foundation</strong> 及其 <strong>NSMutableArray</strong> 却并没有被开源。不过，很多工具使得发掘其奥秘能稍微轻松一点。我们从尽可能高的层级开始，往底层去获取其它不可获取的细节。</p>
+<h3 id="获取并-dump-类"><a href="#获取并-dump-类" class="headerlink" title="获取并 dump 类"></a>获取并 dump 类</h3><p><strong>NSMutableArray</strong> 是一个类簇——其具体实现实际上是 <strong>NSMutableArray</strong> 本身的子类。<strong>+[NSMutableArray new]</strong> 实际上返回的是哪个类的实例呢？利用 LLDB 我们连代码都不用写就能知道：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">(lldb) po [[<span class="built_in">NSMutableArray</span> new] <span class="keyword">class</span>]  </div><div class="line">__NSArrayM</div></pre></td></tr></table></figure><br>有了类名，我们可以使用<a href="http://stevenygard.com/projects/class-dump/" target="_blank" rel="external">class-dump</a>。这个方便的工具伪造了从提供分析的二进制获得的类的头文件。使用下面的一行命令，我们可以提取出我们感兴趣的 ivar 布局 (ivar layout)：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./<span class="keyword">class</span>-dump --arch arm64 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7<span class="number">.0</span>.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation | pcregrep -M <span class="string">"^[@ws]*__NSArrayM[sw:&#123;;*]*&#125;"</span></div></pre></td></tr></table></figure><br>我用了一个正则表达式，所以上面的命令不能获得全部的信息，但却提供了我们想要的结果：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">__NSArrayM</span> : <span class="title">NSMutableArray</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _used;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _doHardRetain:<span class="number">1</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _doWeakAccess:<span class="number">1</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _size:<span class="number">62</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _hasObjects:<span class="number">1</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _hasStrongReferences:<span class="number">1</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _offset:<span class="number">62</span>;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _mutations;</div><div class="line">    <span class="keyword">id</span> *_list;</div><div class="line">&#125;</div></pre></td></tr></table></figure><br>原始输出的位字段被指定为 <strong>unsigned int</strong> 类型，但显然无法将 62 字节放入一个 32 字节的整型中—— class-dump 还未能对 ARM64 的库进行正确的解析。尽管有些小缺陷，但通过查看它的 ivars，已经能够了解很多关于该类的信息了。 </p>
+<h3 id="反汇编类"><a href="#反汇编类" class="headerlink" title="反汇编类"></a>反汇编类</h3><p>在我的研究中，最重要的工具是 <a href="http://www.hopperapp.com/" target="_blank" rel="external">Hopper</a>。我爱死这个反汇编程序了。它是那些想知道任何事物工作原理、充满求知欲的灵魂必不可少的工具。Hopper 最强大的特性是能生成类 C 语言伪代码，而且足够清晰地去掌握实现的要旨。</p>
+<p>用来理解 <strong>__NSArrayM</strong> 最重要的方法是 <strong>- ObjectAtIndex:</strong>。Hopper 很好地给出了 ARMv7 的伪代码，但这些还不能在 ARM64 上好好工作。我想有 ARMv7 提供对应的提示来动手写这伪代码，会是一次很好的练习。</p>
+<h3 id="剖析方法"><a href="#剖析方法" class="headerlink" title="剖析方法"></a>剖析方法</h3><p>带着 <a href="https://silver.arm.com/download/ARM_and_AMBA_Architecture/AR100-DA-70501-r0p0-00eac5/ARMv8_ISA_PRD03-GENC-010197-30-0.pdf" target="_blank" rel="external">ARMv8 Instruction Set Overview</a> 和一堆有根据的推测，我想我正确地破译了该汇编代码。然而作为一个智慧的终极来源，你不应该相信接下来的分析。我还是个新手。</p>
+<h3 id="参数传递"><a href="#参数传递" class="headerlink" title="参数传递"></a>参数传递</h3><p>作为起点，我们应该注意，每个 Obj-C 方法实际上是一个多了两个参数的 C 函数。第一个参数是 <strong>self</strong>，一个指向成为方法调用接收者的对象的指针。第二个参数是 <strong>_cmd</strong>，用于表示当前的 selector。</p>
+<p>可以说，与 <strong>- objectAtIndex:</strong> 等价的 C 风格函数声明如下：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">id</span> objectAtIndex(<span class="built_in">NSArray</span> *<span class="keyword">self</span>, SEL _cmd, <span class="built_in">NSUInteger</span> index);</div></pre></td></tr></table></figure><br>从 ARM64 开始，这些类型的参数就被传递给连续的寄存器，我们可以假设 <strong>self</strong> 指针在 <strong>x0</strong> 寄存器，<strong>_cmd</strong> 在 <strong>x1</strong>寄存器，还有对象的 <strong>index</strong> 在 <strong>x2</strong> 寄存器。对于参数传递的细节请参考 <a href="http://infocenter.arm.com/help/topic/com.arm.doc.ihi0055b/IHI0055B_aapcs64.pdf" target="_blank" rel="external">ARM Procedure Call Standard</a>，需要注意 Apple 的 iOS 版本会有一些<a href="https://developer.apple.com/library/ios/documentation/Xcode/Conceptual/iPhoneOSABIReference/Articles/ARM64FunctionCallingConventions.html" target="_blank" rel="external">分歧</a>。</p>
+<h3 id="分析汇编代码"><a href="#分析汇编代码" class="headerlink" title="分析汇编代码"></a>分析汇编代码</h3><p>这看起来有点恐怖。一次性分析一大块汇编代码可不是明智的行为，下面的代码我们会一步步来，理解每一行做了什么。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2d4</span>         stp        x29, x30, [sp, #<span class="number">0xfffffff0</span>]  </div><div class="line"><span class="number">0xc2d8</span>         mov        x29, sp  </div><div class="line"><span class="number">0xc2dc</span>         sub        sp, sp, #<span class="number">0x20</span>  </div><div class="line"><span class="number">0xc2e0</span>         adrp       x8, #<span class="number">0x1d1000</span>  </div><div class="line"><span class="number">0xc2e4</span>         ldrsw      x8, [x8, #<span class="number">0x2c</span>]  </div><div class="line"><span class="number">0xc2e8</span>         ldr        x8, [x0, x8]  </div><div class="line"><span class="number">0xc2ec</span>         cmp        x8, x2  </div><div class="line"><span class="number">0xc2f0</span>         b.ls       <span class="number">0xc33c</span>  </div><div class="line"></div><div class="line"><span class="number">0xc2f4</span>         adrp       x8, #<span class="number">0x1d1000</span>  </div><div class="line"><span class="number">0xc2f8</span>         ldrsw      x8, [x8, #<span class="number">0x30</span>]  </div><div class="line"><span class="number">0xc2fc</span>         ldr        x8, [x0, x8]  </div><div class="line"><span class="number">0xc300</span>         lsr        x8, x8, #<span class="number">0x2</span>  </div><div class="line"><span class="number">0xc304</span>         adrp       x9, #<span class="number">0x1d1000</span>  </div><div class="line"><span class="number">0xc308</span>         ldrsw      x9, [x9, #<span class="number">0x34</span>]  </div><div class="line"><span class="number">0xc30c</span>         ldr        x9, [x0, x9]  </div><div class="line"><span class="number">0xc310</span>         add        x9, x2, x9, lsr #<span class="number">2</span>  </div><div class="line"><span class="number">0xc314</span>         cmp        x8, x9  </div><div class="line"><span class="number">0xc318</span>         csel       x8, xzr, x8, hi  </div><div class="line"><span class="number">0xc31c</span>         sub        x8, x9, x8  </div><div class="line"><span class="number">0xc320</span>         adrp       x9, #<span class="number">0x1d1000</span>  </div><div class="line"><span class="number">0xc324</span>         ldrsw      x9, [x9, #<span class="number">0x38</span>]  </div><div class="line"><span class="number">0xc328</span>         ldr        x9, [x0, x9]  </div><div class="line"><span class="number">0xc32c</span>         ldr        x0, [x9, x8, lsl #<span class="number">3</span>]  </div><div class="line"><span class="number">0xc330</span>         mov        sp, x29  </div><div class="line"><span class="number">0xc334</span>         ldp        x29, x30, [sp], #<span class="number">0x10</span>  </div><div class="line"><span class="number">0xc338</span>         ret  </div></pre></td></tr></table></figure></p>
+<h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>我们从一段似乎是 ARM64 的<a href="http://en.wikipedia.org/wiki/Function_prologue" target="_blank" rel="external">函数序言 (function prologue)</a>开始。先把栈中的 <strong>x29</strong> 和 <strong>x30</strong> 寄存器保存起来，然后将当前栈指针移动到 <strong>x29</strong> 寄存器：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2d4</span>         stp        x29, x30, [sp, #<span class="number">0xfffffff0</span>]!</div><div class="line"><span class="number">0xc2d8</span>         mov        x29, sp</div></pre></td></tr></table></figure><br>在栈上开辟一些空间（减，因为栈向下增长）：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2dc</span>         sub        sp, sp, #<span class="number">0x20</span></div></pre></td></tr></table></figure><br>我们感兴趣的路径代码似乎没有使用这段空间。然而，越界 (out of bounds) 异常抛出代码会调用一些其它函数，因此序言必须为此选项提供便利。</p>
+<h3 id="获取计数"><a href="#获取计数" class="headerlink" title="获取计数"></a>获取计数</h3><p>接下来两行代码执行<a href="http://en.wikipedia.org/wiki/Addressing_mode#PC-relative_2" target="_blank" rel="external">程序计数器相对寻址 (program counter relative addressing)</a>。地址编码的具体细节<a href="http://kitoslab.blogspot.com/2012/10/armv8-aarch64-instruction-encoding.html" target="_blank" rel="external">相当复杂</a>且文献稀少。Hopper 自动计算出了合理的偏移量：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2e0</span>         adrp       x8, #<span class="number">0x1d1000</span></div><div class="line"><span class="number">0xc2e4</span>         ldrsw      x8, [x8, #<span class="number">0x2c</span>]</div></pre></td></tr></table></figure><br>上面的两行代码会获取位于 <strong>0x1d102c</strong> 内存空间的内容，然后存储在 <strong>x8</strong> 寄存器。那上面是什么呢？Hopper 可以帮到我们：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">_OBJC_IVAR_$___NSArrayM._used:</div><div class="line"><span class="number">0x1d102c</span>         dd         <span class="number">0x00000008</span></div></pre></td></tr></table></figure><br>这是 <strong>__NSArrayM</strong> 类里的 <strong>_used</strong> ivar 的偏移量。为什么要那么麻烦去做额外的拉取，而不是简单地将变量 <strong>8</strong> 放到汇编程序中？原因就是<a href="http://en.wikipedia.org/wiki/Fragile_base_class" target="_blank" rel="external">易碎的基类 (fragile base class)</a> 问题。现代 Objectie-C 通过让它自身在运行时可以选择去重写在 <strong>0x1d102c</strong> 的值（和所有该问题的其它 ivar 偏移量）来处理这个问题。如果 <strong>NSObject</strong>、<strong>NSArray</strong> 或 <strong>NSMutableArray</strong> 增加新的 ivar，旧的二进制文件仍然可以工作。</p>
+<p><a href="/images/20150503/3.jpg"><img src="/images/20150503/3.jpg" alt="运行时系统能在不破坏兼容性的前提下动态修改 ivar 的偏移量"></a></p>
+<p>尽管 CPU 不得不做额外的内存拉取工作，但这却是个完美的解决方案，在 <a href="http://www.sealiesoftware.com/blog/archive/2009/01/27/objc_explain_Non-fragile_ivars.html" target="_blank" rel="external">Hamster Emporium</a> 和 <a href="http://www.cocoawithlove.com/2010/03/dynamic-ivars-solving-fragile-base.html" target="_blank" rel="external">Cocoa with Love</a> 有更详细的解释。</p>
+<p>现在我们知道了 <strong>_used</strong> 在类里面的偏移量。因为 Obj-C 对象和结构体没什么两样，我们也有了在 <strong>x0</strong> 处的这个结构体的指针，我们所需要做的便是拉取该值:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2e8</span>         ldr        x8, [x0, x8]</div></pre></td></tr></table></figure><br>上面代码的 C 等价代码如下：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> newX8 = *(<span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> *)((<span class="keyword">char</span> *)(__bridge <span class="keyword">void</span> *)self + x8);</div></pre></td></tr></table></figure><br>我更喜欢汇编版本。快速分析反汇编了的 <strong>__NSArrayM</strong> 的 <strong>- count</strong> 方法，揭示了 <strong>_used</strong> ivar 装载着 <strong>__NSArrayM</strong> 的元素数量，而此时我们拿到了它在 <strong>x8</strong> 寄存器的值。</p>
+<h3 id="边界检查"><a href="#边界检查" class="headerlink" title="边界检查"></a>边界检查</h3><p>请求了在 <strong>x2</strong> 的索引值和 <strong>x8</strong> 的计数之后，下面的代码对两者做了比较：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2ec</span>         cmp        x8, x2</div><div class="line"><span class="number">0xc2f0</span>         b.ls       <span class="number">0xc33c</span></div></pre></td></tr></table></figure><br>当 <strong>x8</strong> 的值小于或等于 <strong>x2</strong> 的值时，会跳到 <strong>0xc33c</strong> 处用于处理异常抛出的代码。这是基本的边界检查。如果测试失败（计数小于或等于索引），会抛出异常。我不打算讨论这部分反汇编，因为它们真的没有介绍任何的新东西。如果通过了测试（计数大于索引），会继续简单地按顺序执行指令。</p>
+<h3 id="计算内存偏移量"><a href="#计算内存偏移量" class="headerlink" title="计算内存偏移量"></a>计算内存偏移量</h3><p>我们前面看过这个，这次要拉取位于 <strong>0x1d1030</strong> 的 <strong>_size</strong> ivar 的偏移量：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">0xc2f4         adrp       x8, #0x1d1000</div><div class="line">0xc2f8         ldrsw      x8, [x8, #0x30]</div></pre></td></tr></table></figure><br>然后检索它的内容并向右移动两位：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc2fc</span>         ldr        x8, [x0, x8]</div><div class="line"><span class="number">0xc300</span>         lsr        x8, x8, #<span class="number">0x2</span></div></pre></td></tr></table></figure><br>为什么要移动呢？我们看看 dump 出来的头文件：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _doHardRetain:<span class="number">1</span>;</div><div class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _doWeakAccess:<span class="number">1</span>;</div><div class="line"><span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span> _size:<span class="number">62</span>;</div></pre></td></tr></table></figure><br>原来是三个位字段分享了同个存储空间，所以要获得 <strong>_size</strong> 的实际值，我们要将值右移，丢弃留给 <strong>_doHardRetain</strong> 和 <strong>_doWeakAccess</strong> 的位。<strong>_doHardRetain</strong> 和 <strong>_doWeakAccess</strong> 的 ivar 偏移量恰好相同，但是它们的位存取代码显然不同。</p>
+<p>接下来是同样的操作，我们拿到（位于 <strong>0x1d1034</strong>）<strong>_offset</strong> ivar 的内容，将其放入 <strong>x9</strong> 寄存器：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc310</span>         add        x9, x2, x9, lsr #<span class="number">2</span></div></pre></td></tr></table></figure><br>接下来的三行代码是最重要的代码。首先，比较了 <strong>_size</strong>（位于 <strong>x8</strong>）和 <strong>_offset + index</strong>（位于 <strong>x9</strong>）：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc314</span>         cmp        x8, x9</div></pre></td></tr></table></figure><br>然后基于上述比较的结果，有条件地选择一个寄存器的值。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc318</span>         csel       x8, xzr, x8, hi</div></pre></td></tr></table></figure><br>相当于 C 语言的 ?: 运算符：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">x8 = hi ? xzr : x8;      <span class="comment">// csel       x8, xzr, x8, hi</span></div></pre></td></tr></table></figure><br><strong>xzr</strong> 寄存器是一个含有值 <strong>0</strong> 的零寄存器，<strong>hi</strong> 是 <strong>csel</strong> 指令应该检查的<a href="http://en.wikipedia.org/wiki/Status_register" target="_blank" rel="external">条件码 (condition code)</a> 的名字。在这个用例中，我们检查了比较的结果是否是更大（<strong>x8</strong> 的值是否大于 <strong>x9</strong> 的）。</p>
+<p>最后，用 <strong>_offset + index</strong>（位于 <strong>x9</strong>）减去 <strong>x8</strong> 的新值，将结果再次存入 <strong>x8</strong>。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc31c</span>         sub        x8, x9, x8</div></pre></td></tr></table></figure><br>所以刚刚发生了什么？先看看等价的 C 语言代码：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">int</span> tempIndex = _offset + index;        <span class="comment">// add        x9, x2, x9, lsr #2</span></div><div class="line">BOOL isInRange = _size &amp;gt; tempIndex;     <span class="comment">// cmp        x8, x9</span></div><div class="line"><span class="keyword">int</span> diff = isInRange ? <span class="number">0</span> : _size;       <span class="comment">// csel       x8, xzr, x8, hi</span></div><div class="line"><span class="keyword">int</span> fetchIndex = tempIndex - diff;      <span class="comment">// sub        x8, x9, x8</span></div></pre></td></tr></table></figure><br>在 C 代码中，我们无须右移 <strong>_size</strong> 和 <strong>_offset</strong>，编译器会为位字段的存取自动完成这些任务。</p>
+<h3 id="获取数据"><a href="#获取数据" class="headerlink" title="获取数据"></a>获取数据</h3><p>我们快到达目的地了。先将拉取到的 <strong>_list</strong> ivar (<strong>0x1d1038</strong>) 的内容放到 <strong>x9</strong> 寄存器中：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc320</span>         adrp       x9, #<span class="number">0x1d1000</span></div><div class="line"><span class="number">0xc324</span>         ldrsw      x9, [x9, #<span class="number">0x38</span>]</div><div class="line"><span class="number">0xc328</span>         ldr        x9, [x0, x9]</div></pre></td></tr></table></figure><br>这时，<strong>x9</strong> 指向含有数据的内存分段的开始。</p>
+<p>最后，将存放在 <strong>x8</strong> 里的拉取到的索引值左移3位，与 <strong>x9</strong> 相加，并将内存里的内容放到 <strong>x0</strong> 的位置。<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc32c</span>         ldr        x0, [x9, x8, lsl #<span class="number">3</span>]</div></pre></td></tr></table></figure><br>这里有两点很重要。第一，每个数据偏移量都以字节为单位。对一个值左移3位相当于将其乘于8，这个结果就是64位架构下指针的大小（8 个字节）。第二，结果存在 <strong>x0</strong> 的位置，即是存储一个返回 NSUInteger 的函数的返回值的寄存器。</p>
+<p>这样我们就快完成了。我们拿到了正确的值并存入数组。</p>
+<h3 id="函数后记-Function-Epilog"><a href="#函数后记-Function-Epilog" class="headerlink" title="函数后记 (Function Epilog)"></a>函数后记 (Function Epilog)</h3><p>剩下的是一些样板操作，恢复调用之前的寄存器状态和栈指针：<br><figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="number">0xc330</span>         mov        sp, x29</div><div class="line"><span class="number">0xc334</span>         ldp        x29, x30, [sp], #<span class="number">0x10</span></div><div class="line"><span class="number">0xc338</span>         ret</div></pre></td></tr></table></figure></p>
+<h2 id="全部放到一起"><a href="#全部放到一起" class="headerlink" title="全部放到一起"></a>全部放到一起</h2><p>我解释了这些代码是干啥的，但问题是为什么要这么做？</p>
+<h3 id="ivars-的意思"><a href="#ivars-的意思" class="headerlink" title="ivars 的意思"></a>ivars 的意思</h3><p>我们来概括下每个 ivar 的意思：</p>
+<ul>
+<li><strong>_used</strong> 是计数的意思</li>
+<li><strong>_list</strong> 是缓冲区指针</li>
+<li><strong>_size</strong> 是缓冲区的大小</li>
+<li><strong>_offset</strong> 是在缓冲区里的数组的第一个元素索引</li>
+</ul>
+<h3 id="C-代码"><a href="#C-代码" class="headerlink" title="C 代码"></a>C 代码</h3><p>带着 ivars 和分析了的汇编代码，我们现在可以写一个执行了相同操作的 Objective-C 代码：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">- (<span class="keyword">id</span>)objectAtIndex:(<span class="built_in">NSUInteger</span>)index</div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (_used &amp;lt;= index) &#123;</div><div class="line">        <span class="keyword">goto</span> ThrowException;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="built_in">NSUInteger</span> fetchOffset = _offset + index;</div><div class="line">    <span class="built_in">NSUInteger</span> realOffset = fetchOffset - (_size &amp;gt; fetchOffset ? <span class="number">0</span> : _size);</div><div class="line"></div><div class="line">    <span class="keyword">return</span> _list[realOffset];</div><div class="line"></div><div class="line">ThrowException:</div><div class="line">    <span class="comment">// exception throwing code</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><br>汇编代码肯定要长的多。</p>
+<h3 id="内存布局"><a href="#内存布局" class="headerlink" title="内存布局"></a>内存布局</h3><p>最关键的部分是决定 <strong>realOffset</strong> 应该等于 <strong>fetchOffset</strong>（减去 0）还是 <strong>fetchOffset</strong> 减 <strong>_size</strong>。看着纯代码不一定能画出完美的图画，我们设想一下两个关于如何获取对象的例子。</p>
+<h3 id="size-gt-fetchOffset"><a href="#size-gt-fetchOffset" class="headerlink" title="_size &gt; fetchOffset"></a>_size &gt; fetchOffset</h3><p>这个例子中，偏移量相对较小：</p>
+<p><a href="/images/20150503/4.jpg"><img src="/images/20150503/4.jpg" alt="一个简单的例子"></a></p>
+<p>为了获取 <strong>0</strong> 处的对象，我们计算出 <strong>fetchOffset</strong> 等于 <strong>3 + 0</strong>。因为 <strong>_size</strong> 大于 <strong>fetchOffset</strong>，<strong>realOffset</strong> 也等于 <strong>3</strong>。代码返回 <strong>_list[3]</strong> 的值。而获取 <strong>4</strong> 处的对象时，<strong>fetchOffset</strong> 等于 <strong>3 + 4</strong>，代码返回 <strong>_list[7]</strong>。</p>
+<h3 id="size-lt-fetchOffset"><a href="#size-lt-fetchOffset" class="headerlink" title="_size &lt;= fetchOffset"></a>_size &lt;= fetchOffset</h3><p>当偏移量比较大时会怎样？</p>
+<p><a href="/images/20150503/5.jpg"><img src="/images/20150503/5.jpg" alt="一个复杂点的例子"></a> </p>
+<p>获取 <strong>0</strong> 处的对象，使得 <strong>fetchOffset</strong> 等于 <strong>7 + 0</strong>，调用方法后如期望的返回 <strong>_list[7]</strong>。然而，获取 <strong>4</strong> 处的对象时，<strong>fetchOffset</strong> 等于 <strong>7 + 4 = 11</strong>，要大于 <strong>_size</strong>。获得的 <strong>realOffset</strong> 要从 <strong>fetchOffset</strong> 减去 <strong>_size</strong>，即 <strong>11 - 10 = 1</strong>，方法返回 <strong>list[1]</strong>。</p>
+<p>我们基本上是在做取模运算，当穿过缓存区边界时会转回缓冲区的另一端。</p>
+<h3 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h3><p>正如你会猜测的，<strong>__NSArrayM</strong> 用了<a href="http://en.wikipedia.org/wiki/Circular_buffer" target="_blank" rel="external">环形缓冲区 (circular buffer)</a>。这个数据结构相当简单，只是比常规数组或缓冲区复杂点。环形缓冲区的内容能在到达任意一端时绕向另一端。</p>
+<p>环形缓冲区有一些非常酷的属性。尤其是，除非缓冲区满了，否则在任意一端插入或删除均不会要求移动任何内存。我们来分析这个类如何充分利用环形缓冲区来使得自身比 C 数组强大得多。</p>
+<h2 id="NSArrayM-特性"><a href="#NSArrayM-特性" class="headerlink" title="__NSArrayM 特性"></a>__NSArrayM 特性</h2><p>对剩下的反汇编了的方法进行逆向工程将会给出 <strong>__NSArrayM</strong> 内部的明确解释，我们可以利用发现的数据点在更高的等级研究该类。</p>
+<h3 id="在运行时检查"><a href="#在运行时检查" class="headerlink" title="在运行时检查"></a>在运行时检查</h3><p>为了在运行时检查 <strong>__NSArrayM</strong>，我们不能简单地粘贴 dump 了的头文件。首先，测试程序在没有为 <strong>__NSArrayM</strong> 提供一个至少为空的 <strong>@implementation</strong> 块时不会被链接。加上这个 <strong>@implementation</strong> 块并不是个好主意。当程序编译和已经运行时，我不完全确定运行时会决定使用哪一个类（如果你知道，请告诉我）。为了安全的缘故，我重命名了类名使得某些东西能独立出来—— <strong>BCExploredMutableArray</strong>。</p>
+<p>再则，ARC 不会让我们在没有指定它的所属关系前编译 <strong>id *_list</strong>。我们不会将其写入 ivar，所以预先指定 <strong>id</strong> 为 <strong>__unsafe_unretained</strong> 会对内存管理提供最少的干预。无论如何，我选择了声明 ivar 为 <strong>void </strong> _list**，原因稍后便知晓。</p>
+<h3 id="打印出代码"><a href="#打印出代码" class="headerlink" title="打印出代码"></a>打印出代码</h3><p>我们可以创建一个 <strong>NSMutableArray</strong> 的类别 (category)，它会打印出 ivars 和包含在数组里面的所有指针列表的内容：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">- (<span class="built_in">NSString</span> *)explored_description</div><div class="line">&#123;</div><div class="line">    assert([<span class="built_in">NSStringFromClass</span>([<span class="keyword">self</span> <span class="keyword">class</span>]) isEqualToString:<span class="string">@"__NSArrayM"</span>]);</div><div class="line"></div><div class="line">    BCExploredMutableArray *array = (BCExploredMutableArray *)<span class="keyword">self</span>;</div><div class="line"></div><div class="line">    <span class="built_in">NSUInteger</span> size = array-&amp;gt;_size;</div><div class="line">    <span class="built_in">NSUInteger</span> offset = array-&amp;gt;_offset;</div><div class="line"></div><div class="line">    <span class="built_in">NSMutableString</span> *description = [<span class="built_in">NSMutableString</span> stringWithString:<span class="string">@"n"</span>];</div><div class="line"></div><div class="line">    [description appendFormat:<span class="string">@"Size: %lun"</span>, (<span class="keyword">unsigned</span> <span class="keyword">long</span>)size];</div><div class="line">    [description appendFormat:<span class="string">@"Count: %llun"</span>, (<span class="keyword">unsigned</span> <span class="keyword">long</span> <span class="keyword">long</span>)array-&amp;gt;_used];</div><div class="line">    [description appendFormat:<span class="string">@"Offset: %lun"</span>, (<span class="keyword">unsigned</span> <span class="keyword">long</span>)offset];</div><div class="line">    [description appendFormat:<span class="string">@"Storage: %pn"</span>, array-&amp;gt;_list];</div><div class="line"></div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; size; i++) &#123;</div><div class="line">        [description appendFormat:<span class="string">@"[%d] %pn"</span>, i, array-&amp;gt;_list[i]];</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> description;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><h3 id="在两端插入或删除会相当地快"><a href="#在两端插入或删除会相当地快" class="headerlink" title="在两端插入或删除会相当地快"></a>在两端插入或删除会相当地快</h3><p>我么来思考一下一个非常简单的例子：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSMutableArray</span> *array = [<span class="built_in">NSMutableArray</span> array];</div><div class="line"></div><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">5</span>; i++) &#123;</div><div class="line">    [array addObject:@(i)];</div><div class="line">&#125;</div><div class="line"></div><div class="line">[array removeObjectAtIndex:<span class="number">0</span>];</div><div class="line">[array removeObjectAtIndex:<span class="number">0</span>];</div><div class="line"></div><div class="line"><span class="built_in">NSLog</span>(<span class="string">@"%@"</span>, [array explored_description]);</div></pre></td></tr></table></figure><br>输出显示移除位于 0 处的对象两次后，只是简单地清除了指针并由此而移动了 <strong>_offset</strong> ivar：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Size: <span class="number">6</span></div><div class="line">Count: <span class="number">3</span></div><div class="line">Offset: <span class="number">2</span></div><div class="line">Storage: <span class="number">0x178245ca0</span></div><div class="line">[<span class="number">0</span>] <span class="number">0x0</span></div><div class="line">[<span class="number">1</span>] <span class="number">0x0</span></div><div class="line">[<span class="number">2</span>] <span class="number">0xb000000000000022</span></div><div class="line">[<span class="number">3</span>] <span class="number">0xb000000000000032</span></div><div class="line">[<span class="number">4</span>] <span class="number">0xb000000000000042</span></div><div class="line">[<span class="number">5</span>] <span class="number">0x0</span></div></pre></td></tr></table></figure><br>这是对上面所做的事的图形化说明：</p>
+<p><a href="/images/20150503/6.jpg"><img src="/images/20150503/6.jpg" alt="移除下标 0 处的元素两次"></a></p>
+<p>添加元素会怎样呢？我们在一个全新的数组下试试：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSMutableArray</span> *array = [<span class="built_in">NSMutableArray</span> array];</div><div class="line"></div><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">4</span>; i++) &#123;</div><div class="line">    [array addObject:@(i)];</div><div class="line">&#125;</div><div class="line">[array insertObject:@(<span class="number">15</span>) atIndex:<span class="number">0</span>];</div></pre></td></tr></table></figure><br>在 0 处插入对象用了环形缓冲区魔法来将新插入的对象放置在缓存区的末端：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Size: <span class="number">6</span></div><div class="line">Count: <span class="number">5</span></div><div class="line">Offset: <span class="number">5</span></div><div class="line">Storage: <span class="number">0x17004a560</span></div><div class="line">[<span class="number">0</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">1</span>] <span class="number">0xb000000000000012</span></div><div class="line">[<span class="number">2</span>] <span class="number">0xb000000000000022</span></div><div class="line">[<span class="number">3</span>] <span class="number">0xb000000000000032</span></div><div class="line">[<span class="number">4</span>] <span class="number">0x0</span></div><div class="line">[<span class="number">5</span>] <span class="number">0xb0000000000000f2</span></div></pre></td></tr></table></figure><br>如下图描述：</p>
+<p><a href="/images/20150503/7.jpg"><img src="/images/20150503/7.jpg" alt="在下标 0 处添加元素"></a></p>
+<p>这是个很棒的消息！这意味着 <strong>__NSArrayM</strong> 可以对任意一端进行处理。你可以使用 <strong>__NSArrayM</strong> 作为栈或队列而没有任何性能问题。</p>
+<p>从另一侧说明，你可以看到，在 64 位架构之下的 <strong>NSNumber</strong> 如何使用<a href="http://objectivistc.tumblr.com/post/7872364181/tagged-pointers-and-fast-pathed-cfnumber-integers-in" target="_blank" rel="external">参数指针 (tagged pointers)</a> 来作为存储。</p>
+<h3 id="非整数的增长因子"><a href="#非整数的增长因子" class="headerlink" title="非整数的增长因子"></a>非整数的增长因子</h3><p>好吧，这里我稍微作了点弊。虽然我也已经做了一些实验性测试，但我想有一个确切的值，并且我已经偷窥了 <strong>insertObject:atIndex:</strong> 的反汇编程序。每当缓冲区满了，它会重新分配1.625倍大小的空间。我很惊讶它居然不等于 2。</p>
+<p>更新：Mike Curtiss 给出了一个关于为什么调整因子等于 2 只是次优选择的<a href="https://github.com/facebook/folly/blob/master/folly/docs/FBVector.md#memory-handling" target="_blank" rel="external">非常好的解释</a>。</p>
+<h3 id="一旦增长，不再缩小"><a href="#一旦增长，不再缩小" class="headerlink" title="一旦增长，不再缩小"></a>一旦增长，不再缩小</h3><p>这有点令人震惊：<strong>__NSArrayM</strong> 从不减少它的大小。我们运行下面的代码试试：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSMutableArray</span> *array = [<span class="built_in">NSMutableArray</span> array];</div><div class="line"></div><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">10000</span>; i++) &#123;</div><div class="line">    [array addObject:[<span class="built_in">NSObject</span> new]];</div><div class="line">&#125;</div><div class="line">[array removeAllObjects];</div></pre></td></tr></table></figure><br>尽管这里的数组是空的，它仍然保持着很大的缓冲区：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Size: <span class="number">14336</span></div></pre></td></tr></table></figure><br>除非你使用 <strong>NSMutableArray</strong> 去加载一些超大量的数据并且清除数组是为了释放空间，否则这不是你要担忧的问题。</p>
+<h3 id="初始化容量几乎完全不重要"><a href="#初始化容量几乎完全不重要" class="headerlink" title="初始化容量几乎完全不重要"></a>初始化容量几乎完全不重要</h3><p>我们用设置为2的连续乘方的初始化容量来分配新数组空间：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">16</span>; i++) &#123;</div><div class="line">    <span class="built_in">NSLog</span>(<span class="string">@"%@"</span>, [[[<span class="built_in">NSMutableArray</span> alloc] initWithCapacity:<span class="number">1</span> &amp;lt;&amp;lt; i] explored_description]);</div><div class="line">&#125;</div></pre></td></tr></table></figure><br>真是意想不到：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Size:<span class="number">2</span>     <span class="comment">// requested capacity - 1</span></div><div class="line">Size:<span class="number">2</span>     <span class="comment">// requested capacity - 2</span></div><div class="line">Size:<span class="number">4</span>     <span class="comment">// requested capacity - 4</span></div><div class="line">Size:<span class="number">8</span>     <span class="comment">// requested capacity - 8</span></div><div class="line">Size:<span class="number">16</span>    <span class="comment">// requested capacity - 16</span></div><div class="line">Size:<span class="number">16</span>    <span class="comment">// requested capacity - 32</span></div><div class="line">Size:<span class="number">16</span>    <span class="comment">// requested capacity - 64</span></div><div class="line">Size:<span class="number">16</span>    <span class="comment">// requested capacity - 128</span></div><div class="line">... <span class="comment">// Size:16 all the way down</span></div></pre></td></tr></table></figure></p>
+<h3 id="在删除的时候不会清除指针"><a href="#在删除的时候不会清除指针" class="headerlink" title="在删除的时候不会清除指针"></a>在删除的时候不会清除指针</h3><p>这虽然不怎么重要，但我发现它仍然有趣：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSMutableArray</span> *array = [<span class="built_in">NSMutableArray</span> array];</div><div class="line"></div><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">6</span>; i++) &#123;</div><div class="line">    [array addObject:@(i)];</div><div class="line">&#125;</div><div class="line">[array removeObjectAtIndex:<span class="number">1</span>];</div><div class="line">[array removeObjectAtIndex:<span class="number">1</span>];</div><div class="line">[array removeObjectAtIndex:<span class="number">1</span>];</div></pre></td></tr></table></figure><br>输出为：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Size: <span class="number">6</span></div><div class="line">Count: <span class="number">3</span></div><div class="line">Offset: <span class="number">3</span></div><div class="line">Storage: <span class="number">0x17805be10</span></div><div class="line">[<span class="number">0</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">1</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">2</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">3</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">4</span>] <span class="number">0xb000000000000042</span></div><div class="line">[<span class="number">5</span>] <span class="number">0xb000000000000052</span></div></pre></td></tr></table></figure><br>当往前移动它的对象时，<strong>__NSArrayM</strong> 不会麻烦地去清除前一个空间。无论如何，对象没有被清除。这不是 <strong>NSNumber</strong> 在施展它的魔法，<strong>NSObject</strong> 也表现一致。</p>
+<p>这解释了我为什么选择定义 <strong>_list</strong> ivar 为 <strong>void **</strong>。如果 <strong>_list</strong> 声明为 <strong>id *</strong>，那么接下来的循环将会在给 <strong>object</strong> 赋值时崩溃：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; size; i++) &#123;</div><div class="line">    <span class="keyword">id</span> object = array-&amp;gt;_list[i];</div><div class="line">    <span class="built_in">NSLog</span>(<span class="string">"%p"</span>, object);</div><div class="line">&#125;</div></pre></td></tr></table></figure><br>ARC 隐式地插入一个 retain/release 对，且控制着释放对象。尽管预先定义 <strong>id object</strong> 为 <strong>__unsafe_unretained</strong> 解决了问题，但我完全不想任何人或东西去调用这串游离指针的任何方法。这就是我使用 <strong>void **</strong> 的原因。</p>
+<h3 id="最糟糕的情形是在中间进行插入或删除"><a href="#最糟糕的情形是在中间进行插入或删除" class="headerlink" title="最糟糕的情形是在中间进行插入或删除"></a>最糟糕的情形是在中间进行插入或删除</h3><p>这两个例子中，我们将会粗暴地从一个数组中间移除元素：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSMutableArray</span> *array = [<span class="built_in">NSMutableArray</span> array];</div><div class="line"></div><div class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &amp;lt; <span class="number">6</span>; i++) &#123;</div><div class="line">    [array addObject:@(i)];</div><div class="line">&#125;</div><div class="line">[array removeObjectAtIndex:<span class="number">3</span>];</div></pre></td></tr></table></figure><br>从输出中我们看到顶部的元素往下移动，底部为低索引（注意 <strong>[5]</strong> 处的游离指针）：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[<span class="number">0</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">1</span>] <span class="number">0xb000000000000012</span></div><div class="line">[<span class="number">2</span>] <span class="number">0xb000000000000022</span></div><div class="line">[<span class="number">3</span>] <span class="number">0xb000000000000042</span></div><div class="line">[<span class="number">4</span>] <span class="number">0xb000000000000052</span></div><div class="line">[<span class="number">5</span>] <span class="number">0xb000000000000052</span></div></pre></td></tr></table></figure><br><a href="/images/20150503/8.jpg"><img src="/images/20150503/8.jpg" alt="移除下标 3 处的元素"></a></p>
+<p>然而，当我们调用 <strong>[array removeObjectAtIndex:2]</strong> 时，底部的元素往上移动，顶部为高索引：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">[<span class="number">0</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">1</span>] <span class="number">0xb000000000000002</span></div><div class="line">[<span class="number">2</span>] <span class="number">0xb000000000000012</span></div><div class="line">[<span class="number">3</span>] <span class="number">0xb000000000000032</span></div><div class="line">[<span class="number">4</span>] <span class="number">0xb000000000000042</span></div><div class="line">[<span class="number">5</span>] <span class="number">0xb000000000000052</span></div></pre></td></tr></table></figure><br><a href="/images/20150503/9.jpg"><img src="/images/20150503/9.jpg" alt="移除下标 2 处的元素"></a></p>
+<p>往中部插入对象有非常相似的结果。合理的解释就是，<strong>__NSArrayM</strong> 试着去最小化内存的移动，因此会移动最少的一边元素。</p>
+<h3 id="成为一个好的子类公民"><a href="#成为一个好的子类公民" class="headerlink" title="成为一个好的子类公民"></a>成为一个好的子类公民</h3><p>正如 <a href="https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSMutableArray_Class/Reference/Reference.html" target="_blank" rel="external">NSMutableArray Class Reference</a> 的讨论，每个 <strong>NSMutableArray</strong> 子类必须实现下面 7 个方法：</p>
+<ul>
+<li><strong>- count</strong></li>
+<li><strong>- objectAtIndex:</strong></li>
+<li><strong>- insertObject:atIndex:</strong></li>
+<li><strong>- removeObjectAtIndex:</strong></li>
+<li><strong>- addObject:</strong></li>
+<li><strong>- removeLastObject</strong></li>
+<li><strong>- replaceObjectAtIndex:withObject:</strong></li>
+</ul>
+<p>毫不意外的是，<strong>__NSArrayM</strong> 履行了这个规定。然而，<strong>__NSArrayM</strong> 的所有实现方法列表相当短且不包含 21 个额外的在 <strong>NSMutableArray</strong> 头文件列出来的方法。谁负责执行这些方法呢？</p>
+<p>这证明它们只是 <strong>NSMutableArray</strong> 类自身的一部分。这会相当的方便：任何 <strong>NSMutableArray</strong> 的子类只须实现 7 个最基本的方法。所有其它高等级的抽象建立在它们的基础之上。例如 <strong>- removeAllObjects</strong> 方法简单地往回迭代，一个个地调用 <strong>- removeObjectAtIndex:</strong>。下面是伪代码：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// we actually know this is safe, since count is stored on 62 bits</span></div><div class="line"><span class="comment">// and casting to NSInteger will *not* overflow</span></div><div class="line"><span class="built_in">NSInteger</span> count = (<span class="built_in">NSInteger</span>)[<span class="keyword">self</span> count];</div><div class="line"><span class="keyword">if</span> (count == <span class="number">0</span>) &#123;</div><div class="line">  <span class="keyword">return</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line">count--;</div><div class="line"><span class="keyword">do</span> &#123;</div><div class="line">  [<span class="keyword">self</span> removeObjectAtIndex:count];</div><div class="line">  count--;</div><div class="line">&#125; <span class="keyword">while</span> (count &amp;gt;= <span class="number">0</span>);</div></pre></td></tr></table></figure><br>然而，它是有道理的：<strong>__NSArrayM</strong> 重新实现了它超类的一些方法。例如，尽管<strong>NSArray</strong> 提供了 <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/NSFastEnumeration_protocol/" target="_blank" rel="external">NSFastEnumeration</a> 协议的 <strong>- countByEnumeratingWithState:objects:count:</strong> 方法默认实现，但 <strong>__NSArrayM</strong> 仍然有它自己的代码路径 (code-path)。</p>
+<h2 id="Foundations"><a href="#Foundations" class="headerlink" title="Foundations"></a>Foundations</h2><p>我总觉得 Foundation 是 CoreFoundation 的小型封装器 (thin wrapper)。我的论点很简单：当 CF<em> 类可用时，不需要重新发明实现了全新的 NS</em> 类的轮子。当我知道 <strong>NSArray</strong> 或 <strong>NSMutableArray</strong> 和 <strong>CFArray</strong> 完全没有共同点时相当震惊。</p>
+<h3 id="CFArray"><a href="#CFArray" class="headerlink" title="CFArray"></a>CFArray</h3><p>关于 CFArray 最好的特点便是：它是<a href="http://opensource.apple.com/source/CF/CF-855.11/CFArray.c" target="_blank" rel="external">开源的</a>。这将会是一个快速的概述，尽管源代码完全公开，饥渴地等着被阅读。<strong>CFArray</strong> 中最重要的函数是 <a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L923" target="_blank" rel="external">_CFArrayReplaceValues</a>。它被下面这些函数调用：</p>
+<ul>
+<li><a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L693" target="_blank" rel="external">CFArrayAppendValue</a></li>
+<li><a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L703" target="_blank" rel="external">CFArraySetValueAtIndex</a></li>
+<li><a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L729" target="_blank" rel="external">CFArrayInsertValueAtIndex</a></li>
+<li><a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L760" target="_blank" rel="external">CFArrayRemoveValueAtIndex</a></li>
+<li><a href="https://gist.github.com/Ciechan/9258194#file-cfarray-c-L918" target="_blank" rel="external">CFArrayReplaceValues</a>（注意前面没有下划线）</li>
+</ul>
+<p>基本上，<strong>CFArray</strong> 移动内存空间是围绕这最高效趋势的变化，类似于 <strong>__NSArrayM</strong> 做得工作。然而，<strong>CFArray</strong> 不使用环形缓冲区。反而使用一个两端都填充着零的更大的缓冲区，使得枚举和获取正确的对象变得更加简单。在任意一端添加元素只是简单地吃到剩余的被填充的内存。</p>
+<h2 id="最后的话"><a href="#最后的话" class="headerlink" title="最后的话"></a>最后的话</h2><p>尽管 <strong>CFArray</strong> 服务于稍微更通用些的目的，但我发现它吸引人的是，它的内部做着不是和 <strong>__NSArrayM</strong> 一样的事。尽管我以为发现一个共同的地方并且制造一个单一的、典型的实现会有用，但也许有一些其它的因素导致这样的分立。</p>
+<p>这两者有什么共同点？它们是像<a href="http://en.wikipedia.org/wiki/Double-ended_queue" target="_blank" rel="external">双向队列</a>这类抽象数据类型的具体实现。不管它的名字，<strong>NSMutableArray</strong> 是一个类固醇数组，剥除了 C 风格数组对应的缺点。</p>
+<p>就我个人而言，我很高兴在任意一端插入或删除能有固定时间的性能。我不再对我自己使用 <strong>NSMutableArray</strong> 作为队列而质疑。它做得相当好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文翻译自 &lt;a href=&quot;http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/&quot;&gt;Exposing NSMutableArray&lt;/a&gt;，译文原地址为&lt;a href=&quot;http://www.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/&quot;&gt;NSMutableArray 原理揭露&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;以下为译文：&lt;/p&gt;
+&lt;p&gt;我总好奇 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 内部是如何工作的。别误会，不可变数组确实提供了极大的便利。它们不仅线程安全，在对它们进行拷贝时也是完全自由的。但这些改变不了它们死板的事实——它们的内容不可被修改。我发现实际内存操作的细节很迷人，这也是我这篇文章聚焦于可变数组的原因。&lt;/p&gt;
+&lt;p&gt;当我在说明我是如何研究 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 的整个过程时，这篇文章会得相当具有技术性。会有一整个章节讨论 &lt;strong&gt;ARM64 汇编&lt;/strong&gt; (the ARM64 assembly)，所以当你感觉到无聊时，不要犹豫，直接跳过那部分内容。一旦我们讨论完那些底层细节，我会展示关于这个类的隐藏特性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NSmutableArray&lt;/strong&gt; 的实现细节之所以私有是有原因的。得益于其底下的子类 (underlying subclasses) 和 ivar 布局 (ivar layouts)，还有算法和数据结构的支撑，它们几乎可以随时改变。无视掉那些注意事项，我们值得去掀开 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 的引擎盖窥视一番，搞清楚它是如何工作的和能期望它做什么。接下来的学习基于 iOS 7.0 SDK。&lt;/p&gt;
+&lt;p&gt;和往常一样，你可以在我的&lt;a href=&quot;https://github.com/Ciechan/NSMutableArrayExplorer&quot;&gt;GitHub&lt;/a&gt;上找到接下来的 Xcode 项目。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://joyingx.me/categories/iOS/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Linux常用命令</title>
+    <link href="http://joyingx.me/2015/04/19/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://joyingx.me/2015/04/19/Linux 常用命令/</id>
+    <published>2015-04-19T10:06:25.000Z</published>
+    <updated>2015-06-03T13:15:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是在看《鸟哥的Linux私房菜基础学习篇》做的一份表，目的是为了在自己忘记的时候方便查阅，毕竟连命令名都忘记，很难通过 man 命令查到。因为 Linux 的命令实在太多，这份表仅能包含常用命令，查不到的命令可以通过 tab 键和 man、info命令找到。</p>
+<h4 id="使用频率较高的命令"><a href="#使用频率较高的命令" class="headerlink" title="使用频率较高的命令"></a>使用频率较高的命令</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>man</strong></td>
+<td style="text-align:center">查看指令说明</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>info</strong></td>
+<td style="text-align:center">分段落查看指令说明，与man类似</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>whatis</strong></td>
+<td style="text-align:center">输出man里面的短描述，相当于man -f</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>apropos</strong></td>
+<td style="text-align:center">通过关键字搜索man，相当于man -k</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>shutdown</strong></td>
+<td style="text-align:center">关机</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>reboot, halt, poweroff</strong></td>
+<td style="text-align:center">重启与关机</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>ls</strong></td>
+<td style="text-align:center">输出目录列表</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cd</strong></td>
+<td style="text-align:center">切换到指定目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cp</strong></td>
+<td style="text-align:center">复制文件或目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mv</strong></td>
+<td style="text-align:center">移动文件或目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>rm</strong></td>
+<td style="text-align:center">删除文件</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cat</strong>/<strong>tac</strong>/<strong>nl</strong></td>
+<td style="text-align:center">链接并输出文件内容，tac为倒着输出，nl则输出行号</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>more</strong>/<strong>less</strong></td>
+<td style="text-align:center">一页页显示文件内容，less可往前翻页</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>head</strong>/<strong>tail</strong></td>
+<td style="text-align:center">只输出文件内容头/尾几行</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>od</strong></td>
+<td style="text-align:center">以二进制输出文件内容</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>pwd</strong></td>
+<td style="text-align:center">输出当前工作目录路径</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>basename</strong></td>
+<td style="text-align:center">从一个路径中取出文件名</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>dirname</strong></td>
+<td style="text-align:center">从一个路径中取出路径名</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mkdir</strong></td>
+<td style="text-align:center">新建目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>rmdir</strong></td>
+<td style="text-align:center">删除空目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>chgrp</strong></td>
+<td style="text-align:center">更改文件所属群组</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>chown</strong></td>
+<td style="text-align:center">更改文件拥有者</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>chmod</strong></td>
+<td style="text-align:center">更改文件的权限</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>groupadd</strong></td>
+<td style="text-align:center">新建群组</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>useradd</strong></td>
+<td style="text-align:center">新建用户</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>id</strong></td>
+<td style="text-align:center">查阅用户的属性</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>umask</strong></td>
+<td style="text-align:center">文件的预设权限</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>touch</strong></td>
+<td style="text-align:center">新建空文件或修改文件时间</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>su</strong></td>
+<td style="text-align:center">切换用户</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>exit</strong></td>
+<td style="text-align:center">退出一个状态</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>date</strong></td>
+<td style="text-align:center">显示日期与时间</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cal</strong></td>
+<td style="text-align:center">显示日历</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>echo</strong></td>
+<td style="text-align:center">输出一行文本</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>sync</strong></td>
+<td style="text-align:center">同步硬盘数据</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>init</strong></td>
+<td style="text-align:center">切换登录模式</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>uname</strong></td>
+<td style="text-align:center">输出系统相关信息</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>chattr</strong></td>
+<td style="text-align:center">配置文件隐藏属性</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>lsattr</strong></td>
+<td style="text-align:center">查看文件隐藏属性</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>file</strong></td>
+<td style="text-align:center">查看文件类型</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>which</strong></td>
+<td style="text-align:center">寻找可执行的命令</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>whereis/locate/find</strong></td>
+<td style="text-align:center">寻找文件</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>chsh</strong></td>
+<td style="text-align:center">更改默认shell</td>
+</tr>
+</tbody>
+</table>
+<a id="more"></a>
+<h4 id="磁盘相关命令"><a href="#磁盘相关命令" class="headerlink" title="磁盘相关命令"></a>磁盘相关命令</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>df</strong></td>
+<td style="text-align:center">输出磁盘所有文件系统挂载信息</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>du</strong></td>
+<td style="text-align:center">评估文件系统磁盘的使用量</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>dumpe2fs</strong></td>
+<td style="text-align:center">输出文件系统inode和block相关信息</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>ln</strong></td>
+<td style="text-align:center">新建一个指向已有文件的链接</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>fdisk</strong></td>
+<td style="text-align:center">操作磁盘分区表</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mkfs</strong></td>
+<td style="text-align:center">格式化文件系统</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mke2fs</strong></td>
+<td style="text-align:center">创建一个ext2/ext3的文件系统，具有详尽的定制化选项</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>fsck</strong></td>
+<td style="text-align:center">检查并修复文件系统</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>badblocks</strong></td>
+<td style="text-align:center">检查磁盘的坏道</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mount</strong></td>
+<td style="text-align:center">挂载文件系统</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>umount</strong></td>
+<td style="text-align:center">卸载文件系统</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>mknod</strong></td>
+<td style="text-align:center">建立装置特殊文件</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>e2label</strong></td>
+<td style="text-align:center">修改ext2/ext3/ext4文件系统的label</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tune2fs</strong></td>
+<td style="text-align:center">调整ext2/ext3/ext4文件系统的参数</td>
+</tr>
+</tbody>
+</table>
+<h4 id="压缩与打包相关命令"><a href="#压缩与打包相关命令" class="headerlink" title="压缩与打包相关命令"></a>压缩与打包相关命令</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>gzip/bzip2</strong></td>
+<td style="text-align:center">压缩文件</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>gunzip/bunzip2</strong></td>
+<td style="text-align:center">解压文件，一般可用gzip/bzip2 -d代替</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>zcat/bzcat</strong></td>
+<td style="text-align:center">输出文本压缩文件的内容</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tar</strong></td>
+<td style="text-align:center">打包多个目录或文件</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tar -j/-z</strong></td>
+<td style="text-align:center">tar加-j/-z可兼容bzip2/gzip的压缩和解压</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>dump</strong></td>
+<td style="text-align:center">备份整个文件系统或单一目录</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>restore</strong></td>
+<td style="text-align:center">恢复dump命令备份的文件系统</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>dd</strong></td>
+<td style="text-align:center">制作和转换一个文件，读取磁盘设备的内容并将整个设备备份成一个档案</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cpio</strong></td>
+<td style="text-align:center">备份任何东西</td>
+</tr>
+</tbody>
+</table>
+<h4 id="Bash相关命令"><a href="#Bash相关命令" class="headerlink" title="Bash相关命令"></a>Bash相关命令</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">命令</th>
+<th style="text-align:center">功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>alias</strong></td>
+<td style="text-align:center">设置命令别名</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>type</strong></td>
+<td style="text-align:center">输出命令相关信息，显示命令是否是外部命令或查询命令是否存在</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>export</strong></td>
+<td style="text-align:center">使变量变成环境变量</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>unset</strong></td>
+<td style="text-align:center">取消变量的设定</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>env</strong></td>
+<td style="text-align:center">列出所有环境变量及其说明</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>set</strong></td>
+<td style="text-align:center">列出所有变量及其说明</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>locale</strong></td>
+<td style="text-align:center">显示语言相关的设定</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>read</strong></td>
+<td style="text-align:center">读取键盘输入的变量</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>declare/typeset</strong></td>
+<td style="text-align:center">声明变量类型</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>ulimit</strong></td>
+<td style="text-align:center">查看和设置文件系统及程序的限定值</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>history</strong></td>
+<td style="text-align:center">查看内存内所有使用过的Bash历史</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>source</strong></td>
+<td style="text-align:center">读入环境配置文件的命令</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>cut</strong></td>
+<td style="text-align:center">对同一行的字符进行切割</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>grep</strong></td>
+<td style="text-align:center">分析一行字符，撷取我们想要的信息</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>last</strong></td>
+<td style="text-align:center">显示最新的几个登录信息</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>sort</strong></td>
+<td style="text-align:center">对数据进行排序</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>uinq</strong></td>
+<td style="text-align:center">对数据进行去重</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>wc</strong></td>
+<td style="text-align:center">对数据进行统计</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tee</strong></td>
+<td style="text-align:center">对standard output的数据进行双重导向，既输入到文件也输出到屏幕</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>tr</strong></td>
+<td style="text-align:center">删除某段文字或是进行替换</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>col</strong></td>
+<td style="text-align:center">过滤转义字符</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>join</strong></td>
+<td style="text-align:center">将两个文件所有具有相同数据的行进行连接</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>paste</strong></td>
+<td style="text-align:center">将两个文件行对行连接，用[tab]分割</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>expand</strong></td>
+<td style="text-align:center">将[tab]用空格代替</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>split</strong></td>
+<td style="text-align:center">对一个文件进行分块</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>xargs</strong></td>
+<td style="text-align:center">将数据以空格或换行符进行分割成参数</td>
+</tr>
+</tbody>
+</table>
+<h4 id="man指令后面代号的含义"><a href="#man指令后面代号的含义" class="headerlink" title="man指令后面代号的含义"></a>man指令后面代号的含义</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">代号</th>
+<th style="text-align:center">含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">用户在 shell 环境中可以操作的挃令戒可执行文件</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">系统核心可调用的函数与工具</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">一些常用的函数和函数库，大部分为C函数库</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">装载文件的说明，通常在/dev下的文件</td>
+</tr>
+<tr>
+<td style="text-align:center">5</td>
+<td style="text-align:center">配置文件或某些文件的格式</td>
+</tr>
+<tr>
+<td style="text-align:center">6</td>
+<td style="text-align:center">游戏</td>
+</tr>
+<tr>
+<td style="text-align:center">7</td>
+<td style="text-align:center">惯例与协议等，例如Linux文件系统、网络协议、ASCII code 等等的说明</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td style="text-align:center">系统管理员可用的管理指令</td>
+</tr>
+<tr>
+<td style="text-align:center">9</td>
+<td style="text-align:center">跟kernel有关的文件</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是在看《鸟哥的Linux私房菜基础学习篇》做的一份表，目的是为了在自己忘记的时候方便查阅，毕竟连命令名都忘记，很难通过 man 命令查到。因为 Linux 的命令实在太多，这份表仅能包含常用命令，查不到的命令可以通过 tab 键和 man、info命令找到。&lt;/p&gt;
+&lt;h4 id=&quot;使用频率较高的命令&quot;&gt;&lt;a href=&quot;#使用频率较高的命令&quot; class=&quot;headerlink&quot; title=&quot;使用频率较高的命令&quot;&gt;&lt;/a&gt;使用频率较高的命令&lt;/h4&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;命令&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;man&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;查看指令说明&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;info&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;分段落查看指令说明，与man类似&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;whatis&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;输出man里面的短描述，相当于man -f&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;apropos&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;通过关键字搜索man，相当于man -k&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;shutdown&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;关机&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;reboot, halt, poweroff&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;重启与关机&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;ls&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;输出目录列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cd&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;切换到指定目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cp&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;复制文件或目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;mv&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;移动文件或目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;rm&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;删除文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cat&lt;/strong&gt;/&lt;strong&gt;tac&lt;/strong&gt;/&lt;strong&gt;nl&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;链接并输出文件内容，tac为倒着输出，nl则输出行号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;more&lt;/strong&gt;/&lt;strong&gt;less&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;一页页显示文件内容，less可往前翻页&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;head&lt;/strong&gt;/&lt;strong&gt;tail&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;只输出文件内容头/尾几行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;od&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;以二进制输出文件内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;pwd&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;输出当前工作目录路径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;basename&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;从一个路径中取出文件名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;dirname&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;从一个路径中取出路径名&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;mkdir&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;新建目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;rmdir&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;删除空目录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chgrp&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;更改文件所属群组&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chown&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;更改文件拥有者&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chmod&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;更改文件的权限&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;groupadd&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;新建群组&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;useradd&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;新建用户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;查阅用户的属性&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;umask&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;文件的预设权限&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;touch&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;新建空文件或修改文件时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;su&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;切换用户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;exit&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;退出一个状态&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;date&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;显示日期与时间&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cal&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;显示日历&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;echo&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;输出一行文本&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;sync&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;同步硬盘数据&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;init&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;切换登录模式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;uname&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;输出系统相关信息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chattr&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;配置文件隐藏属性&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;lsattr&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;查看文件隐藏属性&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;file&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;查看文件类型&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;which&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;寻找可执行的命令&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;whereis/locate/find&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;寻找文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chsh&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;更改默认shell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://joyingx.me/categories/Linux/"/>
+    
+    
+  </entry>
+  
+</feed>
