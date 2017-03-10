@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>JoyingX&#39;s Blog</title>
+<search>
   
-  <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.joyingx.me/"/>
-  <updated>2016-01-01T03:31:31.000Z</updated>
-  <id>http://blog.joyingx.me/</id>
-  
-  <author>
-    <name>Joying Xie</name>
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>2015 年终总结</title>
-    <link href="http://blog.joyingx.me/2016/01/01/2015-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://blog.joyingx.me/2016/01/01/2015-年终总结/</id>
-    <published>2016-01-01T00:53:22.000Z</published>
-    <updated>2016-01-01T03:31:31.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>一直都没有写年终总结的习惯，总是觉得：没什么好写的；过去一年发生的事有记忆记录着，没必要靠文字来记录。也是因为懒，懒得去写什么长篇大论的总结。现在开始不一样了，过去一年发生的事太多了，也是这一年开始发觉记忆不太好使了。内心想说的话，该用文字记录下来，否则怕自己忘了，怕未来丢失了现在的自己。  </p>
+    <entry>
+      <title><![CDATA[2015 年终总结]]></title>
+      <url>http://blog.joyingx.me/2016/01/01/2015-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+      <content type="html"><![CDATA[<p>一直都没有写年终总结的习惯，总是觉得：没什么好写的；过去一年发生的事有记忆记录着，没必要靠文字来记录。也是因为懒，懒得去写什么长篇大论的总结。现在开始不一样了，过去一年发生的事太多了，也是这一年开始发觉记忆不太好使了。内心想说的话，该用文字记录下来，否则怕自己忘了，怕未来丢失了现在的自己。  </p>
 <a id="more"></a>
 <h2 id="离开了安静与无忧之地"><a href="#离开了安静与无忧之地" class="headerlink" title="离开了安静与无忧之地"></a>离开了安静与无忧之地</h2><p>过去的 2015 年，离开了束缚我 16 年之久的校园。虽然早在 2014 年中就出来社会了，但内心总觉得自己还是学生，什么时候不想工作了，还可以任性地逃回安静的校园，摆脱社会的喧嚣。然而，就在这年六月拿完学位证和毕业证之后，内心安静不下来了。以前的自己觉得，离开了校园就能获得完全的自由，不用再受到任何的束缚。现在才发现，离开校园走向社会，只不过是从一个不自由的地方走向另一个更加不自由的地方。表面上你觉得什么都可以不经过父母由自己做主，而实际上不经过父母还是不能自己做主，你的上方总会有各种力量试图控制你，驱使着你。你所能做的，只是强化自己的内心，用以对抗外界的力量。</p>
 <h2 id="关于生活"><a href="#关于生活" class="headerlink" title="关于生活"></a>关于生活</h2><p>年中租了个新的地方，摆脱了城中村的吵杂，空间也大了很多，但是价格翻了一番。刚出来还是对怎么租房不了解，找的地方生活不是很便利，也没怎么和房东讨价，似乎水电费也比普通的高。主要问题还是自己总是在逃避麻烦，有了这次经验，以后也知道要怎么找了。一件事如果无论如何都要做，那就想办法把它做到最好吧。  </p>
@@ -74,26 +58,20 @@
 <li>阅读 50 本书。上一年没有完成的任务，今年把它完成了吧。</li>
 </ol>
 ]]></content>
+      
+        <categories>
+            
+            <category> 随笔 </category>
+            
+        </categories>
+        
+        
+    </entry>
     
-    <summary type="html">
-    
-      &lt;p&gt;一直都没有写年终总结的习惯，总是觉得：没什么好写的；过去一年发生的事有记忆记录着，没必要靠文字来记录。也是因为懒，懒得去写什么长篇大论的总结。现在开始不一样了，过去一年发生的事太多了，也是这一年开始发觉记忆不太好使了。内心想说的话，该用文字记录下来，否则怕自己忘了，怕未来丢失了现在的自己。  &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="随笔" scheme="http://blog.joyingx.me/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>使用 UIBezierPath 做一个局部透明的遮罩</title>
-    <link href="http://blog.joyingx.me/2015/12/06/%E4%BD%BF%E7%94%A8UIBezierPath%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B1%80%E9%83%A8%E9%80%8F%E6%98%8E%E7%9A%84%E9%81%AE%E7%BD%A9/"/>
-    <id>http://blog.joyingx.me/2015/12/06/使用UIBezierPath做一个局部透明的遮罩/</id>
-    <published>2015-12-05T22:57:30.000Z</published>
-    <updated>2015-12-06T01:34:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>前阵子的工作中需要做一个局部透明的遮罩效果（如下图），Google 了半天，找到的方法都是使用一张图来遮罩之类的，效果并不理想。又继续翻找文档，发现了可以使用 UIBezierPath 来实现这个效果。</p>
+    <entry>
+      <title><![CDATA[使用 UIBezierPath 做一个局部透明的遮罩]]></title>
+      <url>http://blog.joyingx.me/2015/12/06/%E4%BD%BF%E7%94%A8UIBezierPath%E5%81%9A%E4%B8%80%E4%B8%AA%E5%B1%80%E9%83%A8%E9%80%8F%E6%98%8E%E7%9A%84%E9%81%AE%E7%BD%A9/</url>
+      <content type="html"><![CDATA[<p>前阵子的工作中需要做一个局部透明的遮罩效果（如下图），Google 了半天，找到的方法都是使用一张图来遮罩之类的，效果并不理想。又继续翻找文档，发现了可以使用 UIBezierPath 来实现这个效果。</p>
 <p><a href="/images/20151206/1.png"><img src="/images/20151206/1.png" alt="JYMaskView_Screenshot"></a><br><a id="more"></a></p>
 <p>使用 UIBezierPath ，我们可以绘制出矩形、圆、圆角矩形之类的图形。我们想象有一个填充满颜色的 UIView，只要在中间抠掉我们想要的图形的颜色，就可以实现局部透明的遮罩效果。而 UIBezierPath 的 usesEvenOddFillRule 属性和 CAShapeLayer 的 fillRule 属性可以帮我们实现这个过程。</p>
 <p>奇偶填充规则（Even Odd Fill Rule）指的是：在绘制 UIBezierPath 的过程中，会碰到同一个点被覆盖多次的情况。当一个点被覆盖偶数（0 属于偶数）次的时候，表示其位于图像外，而奇数次则表示位于图形内。位于图形内的点会被填充颜色，位于图形外的则不会。</p>
@@ -107,27 +85,20 @@
 <p>上述代码实现的效果如下：<br><a href="/images/20151206/2.png"><img src="/images/20151206/2.png" alt="Screenshot"></a> </p>
 <p>我花了点时间封装了一个可以复用此效果的 View，详细可以上我的 Github 查看：<a href="https://github.com/joyingx/JYMaskView" target="_blank" rel="external">JYMaskView</a>。</p>
 ]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+    </entry>
     
-    <summary type="html">
-    
-      &lt;p&gt;前阵子的工作中需要做一个局部透明的遮罩效果（如下图），Google 了半天，找到的方法都是使用一张图来遮罩之类的，效果并不理想。又继续翻找文档，发现了可以使用 UIBezierPath 来实现这个效果。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/20151206/1.png&quot;&gt;&lt;img src=&quot;/images/20151206/1.png&quot; alt=&quot;JYMaskView_Screenshot&quot;&gt;&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://blog.joyingx.me/categories/iOS/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>NSMutableArray原理揭露</title>
-    <link href="http://blog.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/"/>
-    <id>http://blog.joyingx.me/2015/05/03/NSMutableArray 原理揭露/</id>
-    <published>2015-05-03T14:40:17.000Z</published>
-    <updated>2015-06-15T00:27:54.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文翻译自 <a href="http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/" target="_blank" rel="external">Exposing NSMutableArray</a>，译文原地址为<a href="http://www.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/" target="_blank" rel="external">NSMutableArray 原理揭露</a>。</p>
+    <entry>
+      <title><![CDATA[NSMutableArray原理揭露]]></title>
+      <url>http://blog.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/</url>
+      <content type="html"><![CDATA[<p>本文翻译自 <a href="http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/" target="_blank" rel="external">Exposing NSMutableArray</a>，译文原地址为<a href="http://www.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/" target="_blank" rel="external">NSMutableArray 原理揭露</a>。</p>
 <p>以下为译文：</p>
 <p>我总好奇 <strong>NSMutableArray</strong> 内部是如何工作的。别误会，不可变数组确实提供了极大的便利。它们不仅线程安全，在对它们进行拷贝时也是完全自由的。但这些改变不了它们死板的事实——它们的内容不可被修改。我发现实际内存操作的细节很迷人，这也是我这篇文章聚焦于可变数组的原因。</p>
 <p>当我在说明我是如何研究 <strong>NSMutableArray</strong> 的整个过程时，这篇文章会得相当具有技术性。会有一整个章节讨论 <strong>ARM64 汇编</strong> (the ARM64 assembly)，所以当你感觉到无聊时，不要犹豫，直接跳过那部分内容。一旦我们讨论完那些底层细节，我会展示关于这个类的隐藏特性。</p>
@@ -224,31 +195,20 @@
 <p>这两者有什么共同点？它们是像<a href="http://en.wikipedia.org/wiki/Double-ended_queue" target="_blank" rel="external">双向队列</a>这类抽象数据类型的具体实现。不管它的名字，<strong>NSMutableArray</strong> 是一个类固醇数组，剥除了 C 风格数组对应的缺点。</p>
 <p>就我个人而言，我很高兴在任意一端插入或删除能有固定时间的性能。我不再对我自己使用 <strong>NSMutableArray</strong> 作为队列而质疑。它做得相当好。</p>
 ]]></content>
+      
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
+        
+    </entry>
     
-    <summary type="html">
-    
-      &lt;p&gt;本文翻译自 &lt;a href=&quot;http://ciechanowski.me/blog/2014/03/05/exposing-nsmutablearray/&quot;&gt;Exposing NSMutableArray&lt;/a&gt;，译文原地址为&lt;a href=&quot;http://www.joyingx.me/2015/05/03/NSMutableArray%20%E5%8E%9F%E7%90%86%E6%8F%AD%E9%9C%B2/&quot;&gt;NSMutableArray 原理揭露&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;以下为译文：&lt;/p&gt;
-&lt;p&gt;我总好奇 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 内部是如何工作的。别误会，不可变数组确实提供了极大的便利。它们不仅线程安全，在对它们进行拷贝时也是完全自由的。但这些改变不了它们死板的事实——它们的内容不可被修改。我发现实际内存操作的细节很迷人，这也是我这篇文章聚焦于可变数组的原因。&lt;/p&gt;
-&lt;p&gt;当我在说明我是如何研究 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 的整个过程时，这篇文章会得相当具有技术性。会有一整个章节讨论 &lt;strong&gt;ARM64 汇编&lt;/strong&gt; (the ARM64 assembly)，所以当你感觉到无聊时，不要犹豫，直接跳过那部分内容。一旦我们讨论完那些底层细节，我会展示关于这个类的隐藏特性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NSmutableArray&lt;/strong&gt; 的实现细节之所以私有是有原因的。得益于其底下的子类 (underlying subclasses) 和 ivar 布局 (ivar layouts)，还有算法和数据结构的支撑，它们几乎可以随时改变。无视掉那些注意事项，我们值得去掀开 &lt;strong&gt;NSMutableArray&lt;/strong&gt; 的引擎盖窥视一番，搞清楚它是如何工作的和能期望它做什么。接下来的学习基于 iOS 7.0 SDK。&lt;/p&gt;
-&lt;p&gt;和往常一样，你可以在我的&lt;a href=&quot;https://github.com/Ciechan/NSMutableArrayExplorer&quot;&gt;GitHub&lt;/a&gt;上找到接下来的 Xcode 项目。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="iOS" scheme="http://blog.joyingx.me/categories/iOS/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Linux常用命令</title>
-    <link href="http://blog.joyingx.me/2015/04/19/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://blog.joyingx.me/2015/04/19/Linux 常用命令/</id>
-    <published>2015-04-19T10:06:25.000Z</published>
-    <updated>2015-06-03T13:15:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是在看《鸟哥的Linux私房菜基础学习篇》做的一份表，目的是为了在自己忘记的时候方便查阅，毕竟连命令名都忘记，很难通过 man 命令查到。因为 Linux 的命令实在太多，这份表仅能包含常用命令，查不到的命令可以通过 tab 键和 man、info命令找到。</p>
+    <entry>
+      <title><![CDATA[Linux常用命令]]></title>
+      <url>http://blog.joyingx.me/2015/04/19/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      <content type="html"><![CDATA[<p>这是在看《鸟哥的Linux私房菜基础学习篇》做的一份表，目的是为了在自己忘记的时候方便查阅，毕竟连命令名都忘记，很难通过 man 命令查到。因为 Linux 的命令实在太多，这份表仅能包含常用命令，查不到的命令可以通过 tab 键和 man、info命令找到。</p>
 <h4 id="使用频率较高的命令"><a href="#使用频率较高的命令" class="headerlink" title="使用频率较高的命令"></a>使用频率较高的命令</h4><table>
 <thead>
 <tr>
@@ -701,194 +661,16 @@
 </tbody>
 </table>
 ]]></content>
+      
+        <categories>
+            
+            <category> Linux </category>
+            
+        </categories>
+        
+        
+    </entry>
     
-    <summary type="html">
-    
-      &lt;p&gt;这是在看《鸟哥的Linux私房菜基础学习篇》做的一份表，目的是为了在自己忘记的时候方便查阅，毕竟连命令名都忘记，很难通过 man 命令查到。因为 Linux 的命令实在太多，这份表仅能包含常用命令，查不到的命令可以通过 tab 键和 man、info命令找到。&lt;/p&gt;
-&lt;h4 id=&quot;使用频率较高的命令&quot;&gt;&lt;a href=&quot;#使用频率较高的命令&quot; class=&quot;headerlink&quot; title=&quot;使用频率较高的命令&quot;&gt;&lt;/a&gt;使用频率较高的命令&lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align:center&quot;&gt;命令&lt;/th&gt;
-&lt;th style=&quot;text-align:center&quot;&gt;功能&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;man&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;查看指令说明&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;info&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;分段落查看指令说明，与man类似&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;whatis&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;输出man里面的短描述，相当于man -f&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;apropos&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;通过关键字搜索man，相当于man -k&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;shutdown&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;关机&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;reboot, halt, poweroff&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;重启与关机&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;ls&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;输出目录列表&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cd&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;切换到指定目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cp&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;复制文件或目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;mv&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;移动文件或目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;rm&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;删除文件&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cat&lt;/strong&gt;/&lt;strong&gt;tac&lt;/strong&gt;/&lt;strong&gt;nl&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;链接并输出文件内容，tac为倒着输出，nl则输出行号&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;more&lt;/strong&gt;/&lt;strong&gt;less&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;一页页显示文件内容，less可往前翻页&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;head&lt;/strong&gt;/&lt;strong&gt;tail&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;只输出文件内容头/尾几行&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;od&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;以二进制输出文件内容&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;pwd&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;输出当前工作目录路径&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;basename&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;从一个路径中取出文件名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;dirname&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;从一个路径中取出路径名&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;mkdir&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;新建目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;rmdir&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;删除空目录&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chgrp&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;更改文件所属群组&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chown&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;更改文件拥有者&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chmod&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;更改文件的权限&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;groupadd&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;新建群组&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;useradd&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;新建用户&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;id&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;查阅用户的属性&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;umask&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;文件的预设权限&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;touch&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;新建空文件或修改文件时间&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;su&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;切换用户&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;exit&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;退出一个状态&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;date&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;显示日期与时间&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;cal&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;显示日历&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;echo&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;输出一行文本&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;sync&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;同步硬盘数据&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;init&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;切换登录模式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;uname&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;输出系统相关信息&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chattr&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;配置文件隐藏属性&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;lsattr&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;查看文件隐藏属性&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;file&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;查看文件类型&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;which&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;寻找可执行的命令&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;whereis/locate/find&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;寻找文件&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;&lt;strong&gt;chsh&lt;/strong&gt;&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;更改默认shell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-    
-    </summary>
-    
-      <category term="Linux" scheme="http://blog.joyingx.me/categories/Linux/"/>
-    
-    
-  </entry>
   
-</feed>
+  
+</search>
