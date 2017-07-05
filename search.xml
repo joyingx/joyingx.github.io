@@ -11,6 +11,12 @@
 <p>抱着试试看的态度，把<code>Main Thread Checker</code>关掉运行了下，居然真的没有 Crash 了。<br>搜了下<code>Main Thread Checker</code>的相关信息，只找到了 Apple 的文档<a href="https://developer.apple.com/documentation/code_diagnostics/main_thread_checker" target="_blank" rel="external">Main Thread Checker</a>有相关说明。这个工具主要用来检查 <code>AppKit</code>、 <code>UIKit</code> 之类的 API 是否在后台线程执行，但在 Xcode 9 Beta 版上似乎还有 Bug，才导致了这类 Crash，希望等到 Xcode 正式版了可以修复吧，现在先把这个检查关了。</p>
 ]]></content>
       
+        <categories>
+            
+            <category> iOS </category>
+            
+        </categories>
+        
         
     </entry>
     
