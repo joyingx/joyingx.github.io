@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>[译文]用好Xcode的用户断点 | JoyingX&#39;s Blog</title>
+
+  
+  <meta name="author" content="Joying Xie">
+  
+
+  
+  <meta name="description" content="原文地址：User Breakpoints in Xcode | Inside PSPDFKit
+
+我们每个人都会使用Xcode的断点，但你是否知道用户断点？接下来我会向你展示如何使用用户断点以及用它们来做什么。如果你已经知道什么是用户断点并且知道如何使用，不妨看一下文章末尾的列表，看看我们在PSPDFKit用它们来做什么。也许你会有一些新的发现！">
+  
+
+  
+  
+  <meta name="keywords" content="">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="[译文]用好Xcode的用户断点"/>
+
+  <meta property="og:site_name" content="JoyingX&#39;s Blog"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="JoyingX&#39;s Blog" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+</head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">JoyingX&#39;s Blog</a>
+    </h1>
+    <p class="site-description"></p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>[译文]用好Xcode的用户断点</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2017/07/19/User_Breakpoints_in_Xcode/" rel="bookmark">
+        <time class="entry-date published" datetime="2017-07-19T02:33:44.000Z">
+          2017-07-19
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <blockquote>
+<p>原文地址：<a href="https://pspdfkit.com/blog/2017/user-breakpoints-in-xcode/?utm_campaign=CodeTengu&amp;utm_medium=rss&amp;utm_source=CodeTengu_96" target="_blank" rel="external">User Breakpoints in Xcode | Inside PSPDFKit</a></p>
+</blockquote>
+<p>我们每个人都会使用Xcode的断点，但你是否知道用户断点？接下来我会向你展示如何使用用户断点以及用它们来做什么。如果你已经知道什么是用户断点并且知道如何使用，不妨看一下文章末尾的列表，看看我们在PSPDFKit用它们来做什么。也许你会有一些新的发现！</p>
+<a id="more"></a>
+<h2 id="常规断点"><a href="#常规断点" class="headerlink" title="常规断点"></a>常规断点</h2><p>创建常规断点后，它们会在Xcode断点导航器（Breakpoint Navigator）的工作区或项目下出现，这取决于你当时用的是哪个。你可以通过点击列表中或它引用代码左侧的断点标识来启用或禁用一个断点。<br><img src="/images/20170719/1.png" alt="Regular Breakpoints"></p>
+<p>这些断点信息存储在指定工作区或项目的个人设置里面，即使你在项目里面提交了个人设置，也仅对你可见。工作于同一项目的同事不会在他们的Xcode里面看到你的断点。</p>
+<h2 id="共享断点"><a href="#共享断点" class="headerlink" title="共享断点"></a>共享断点</h2><p>右键单击一个断点，选择<code>Shared Breakpoint</code>，这个断点就会变成对项目中每个人都可见。这对某些你希望每次都要中断的代码路径来说非常有用，例如自定义异常处理程序或其它任何在正常条件下不应该被执行的项目指定代码。结合断点选项和自动继续断点，这能大大提高整体的调试体验。<br>另一个稍微有点用的地方是，你可以这样：在你APP里的常用执行代码路径添加一个共享断点，例如网络请求完成后，让它自动继续并在每次命中的时候播放一个声音。没错，你可以让你的断点播放声音。提交后就等着看你的同伴为找不出这声音来自哪里而发狂吧。😁不幸的是，在远程环境下恶搞你同伴并不总会有效，这也就是为什么我没在PSPDFKit里做这种事。。。but that might be something to entertain for <a href="https://pspdfkit.com/blog/2016/the-importance-of-retreats-for-a-remote-company/" target="_blank" rel="external">our retreats</a>（这句实在不知道怎么翻译😅）。</p>
+<h2 id="用户断点"><a href="#用户断点" class="headerlink" title="用户断点"></a>用户断点</h2><p>还有另外一件用断点能做的事。这是个相当强大的特性，不过在Xcode上有点难找就是。你可以右键单击你的断点，选择<code>Move Breakpoint To &gt; User</code>，让它变成一个用户断点。<br><img src="/images/20170719/2.png" alt="Regular Breakpoints"><br>这会把断点移出工作区或项目范围，移到用户范围。这意味着该断点会在你机器上的所有项目里出现。虽然对于项目依赖的东西并没有什么卵用，但有部分断点被移到用户范围的列表后会变得更为有用。最明显的就是Objective-C异常和Swift错误断点，几乎每个人都会把它们加到使用相应语言的项目中。使用用户断点，你只需要添加一次，它们便会出现在你所有的项目中。<br>我在用户空间里的还有另外一个用户断点，就是在程序启动时激活<code>Reveal</code>。<code>Reveal</code>是调试视图相关问题的利器，我经常使用。它需要在你的APP里集成一个服务，而这个服务需要被启动。这可以使用调试器来避免在你的APP里添加调试代码。把这个断点移到用户空间后，你不再需要每个应用都添加一下，相反，如果你的项目里面包含<code>Reveal</code>服务，它会在你的APP启动时自动开始。这个方法在<code>Reveal</code>的<a href="http://support.revealapp.com/kb/getting-started/load-the-reveal-server-via-an-xcode-breakpoint" target="_blank" rel="external">集成指南</a>里同样有提到。<br>还有其它一些断点对于每个项目也十分有用。记住，你可以禁用它们，只在需要的时候才启用；我有很多是默认关闭的，但如果我需要，它们就在那儿。下面是我们团队在<code>PSPDFKit</code>中最喜欢使用的断点列表：</p>
+<ul>
+<li><p><strong>Symbol</strong>: <code>UIViewAlertForUnsatisfiableConstraints</code><br>在AutoLayout约束出现问题的时候自动停止。相比于Xcode控制台仅打印日志消息，这种方式会让你对问题更加关注。有助于在早期辨别出布局问题。</p>
+</li>
+<li><p><strong>Symbol</strong>: <code>NSKVODeallocateBreak</code><br>在<code>KVO</code>控诉观察者还存在的地方中断。</p>
+</li>
+<li><p><strong>Symbol</strong>: <code>UIApplicationMain</code><br>Debugger command: e @import UIKit<br>导入<code>UIKit</code>到调试器中，消除很多地方需要转换成结构体的麻烦。你应该写过很多像<code>p (CGRect)[self bounds]</code>这样的代码吧？用这个方法就不用转换成<code>CGRect</code>了。</p>
+</li>
+<li><p><strong>Symbol</strong>: <code>-[UIViewController initWithNibName:bundle:]</code><br>Debugger command: po $arg1<br>在<code>View Controller</code>初始化的时候打印它的类名。在大型项目上工作或者新接触一个项目，你不会知道所有的<code>View Controller</code>的名字。如果你试图找出想要修改的<code>View Controller</code>，只需启用这个断点，把APP跳转到有问题的<code>View Controller</code>，你就会看到在控制台中打印的类名。</p>
+</li>
+<li><p><strong>Symbol</strong>: <code>-[UIApplication sendAction:toTarget:fromSender:forEvent:]</code> </p>
+<p>在事件传递的时候停止，例如点击一个按钮。这和上面的例子十分相似。在你不知道触摸按钮调用了哪个方法的时候启用这个断点。<code>po $arg3</code>会打印被调用的 <code>selector</code>，<code>po $arg4</code>则会打印调用的 <code>target</code>。</p>
+</li>
+<li><p><strong>Exception Breakpoint</strong>: Objective-C<br><em>Debugger command</em>: <code>po $arg1</code><br>当Objective-C断点命中的时候中断，并在 Xcode 的控制台打印出异常。</p>
+</li>
+<li><p><strong>Exception Breakpoint</strong>: C++<br>在C++异常命中的时候中断。</p>
+</li>
+<li><p><strong>Swift Error Breakpoint</strong><br>在遇到Swift错误的时候中断。</p>
+</li>
+<li><p><strong>Symbol</strong>: <code>_XCTFailureHandler</code><br>在单元测试产生错误时中断。如果你跑着单元测试并想在遇到错误的时候中断，这个就是你需要的。</p>
+</li>
+</ul>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/iOS/">iOS</a>
+    </span>
+    
+
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+	<section id="comments" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+
+	<script type="text/javascript">
+	var disqus_shortname = 'joyingx';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2017 Joying Xie
+    
+  </p>
+</footer>
+    
+  </div>
+</div>
+</body>
+</html>
