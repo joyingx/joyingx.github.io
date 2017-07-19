@@ -20,9 +20,9 @@
 </li>
 <li><p><strong>Symbol</strong>: <code>NSKVODeallocateBreak</code><br>在<code>KVO</code>控诉观察者还存在的地方中断。</p>
 </li>
-<li><p><strong>Symbol</strong>: <code>UIApplicationMain</code><br>Debugger command: e @import UIKit<br>导入<code>UIKit</code>到调试器中，消除很多地方需要转换成结构体的麻烦。你应该写过很多像<code>p (CGRect)[self bounds]</code>这样的代码吧？用这个方法就不用转换成<code>CGRect</code>了。</p>
+<li><p><strong>Symbol</strong>: <code>UIApplicationMain</code><br><em>Debugger command: e @import UIKit</em><br>导入<code>UIKit</code>到调试器中，消除很多地方需要转换成结构体的麻烦。你应该写过很多像<code>p (CGRect)[self bounds]</code>这样的代码吧？用这个方法就不用转换成<code>CGRect</code>了。</p>
 </li>
-<li><p><strong>Symbol</strong>: <code>-[UIViewController initWithNibName:bundle:]</code><br>Debugger command: po $arg1<br>在<code>View Controller</code>初始化的时候打印它的类名。在大型项目上工作或者新接触一个项目，你不会知道所有的<code>View Controller</code>的名字。如果你试图找出想要修改的<code>View Controller</code>，只需启用这个断点，把APP跳转到有问题的<code>View Controller</code>，你就会看到在控制台中打印的类名。</p>
+<li><p><strong>Symbol</strong>: <code>-[UIViewController initWithNibName:bundle:]</code><br><em>Debugger command: po $arg1</em><br>在<code>View Controller</code>初始化的时候打印它的类名。在大型项目上工作或者新接触一个项目，你不会知道所有的<code>View Controller</code>的名字。如果你试图找出想要修改的<code>View Controller</code>，只需启用这个断点，把APP跳转到有问题的<code>View Controller</code>，你就会看到在控制台中打印的类名。</p>
 </li>
 <li><p><strong>Symbol</strong>: <code>-[UIApplication sendAction:toTarget:fromSender:forEvent:]</code> </p>
 <p>在事件传递的时候停止，例如点击一个按钮。这和上面的例子十分相似。在你不知道触摸按钮调用了哪个方法的时候启用这个断点。<code>po $arg3</code>会打印被调用的 <code>selector</code>，<code>po $arg4</code>则会打印调用的 <code>target</code>。</p>
