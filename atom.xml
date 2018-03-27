@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.joyingx.me/"/>
-  <updated>2017-07-19T05:42:54.000Z</updated>
+  <updated>2018-03-27T14:11:41.190Z</updated>
   <id>http://blog.joyingx.me/</id>
   
   <author>
@@ -14,6 +14,87 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>理解 Swift:Objective-C 的构建管道</title>
+    <link href="http://blog.joyingx.me/2018/03/27/%E7%90%86%E8%A7%A3-Swift-Objective-C-%E7%9A%84%E6%9E%84%E5%BB%BA%E7%AE%A1%E9%81%93/"/>
+    <id>http://blog.joyingx.me/2018/03/27/理解-Swift-Objective-C-的构建管道/</id>
+    <published>2018-03-27T14:05:00.000Z</published>
+    <updated>2018-03-27T14:11:41.190Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>原文地址：<a href="https://www.bignerdranch.com/blog/manual-swift-understanding-the-swift-objective-c-build-pipeline/" target="_blank" rel="external">Manual Swift: Understanding the Swift/Objective-C Build Pipeline</a>  </p>
+</blockquote>
+<p>Xcode 是如何将 Swift 和 Obj-C 编译到一起的？<br>如果你没有 <code>xcodebuild</code> 的话，应该要怎么做？<br>我们来看看“编译到一起”两种不同的方式：</p>
+<ul>
+<li>Obj-C 使用 Swift</li>
+<li>Swift 使用 Obj-C<br>今天，我们将会使用 Swift 的风格来看待 Obj-C，目的是让你对这些处理过程的线索有个大致理解。改天我们再挖掘这些线索在实际过程中是如何做到的。  </li>
+</ul>
+<a id="more"></a>
+<h2 id="Obj-C-代码是如何使用其他-Obj-C-代码的？"><a href="#Obj-C-代码是如何使用其他-Obj-C-代码的？" class="headerlink" title="Obj-C 代码是如何使用其他 Obj-C 代码的？"></a>Obj-C 代码是如何使用其他 Obj-C 代码的？</h2><p>首先，我们来看看Obj-C 代码是如何使用其他 Obj-C 代码的。显然，使用 Swift 构建的 Obj-C 建立在此之上，所以大部分繁杂的工作实际上都发生在这个处理过程中。这也意味着，一旦你搞明白了，就对 Obj-C 如何使用 Swift 理解了 90％！</p>
+<h3 id="逐个编译，再链接全部"><a href="#逐个编译，再链接全部" class="headerlink" title="逐个编译，再链接全部"></a>逐个编译，再链接全部</h3><p>总的来说，构建一个 Obj-C 代码使用其他 Obj-C 代码的可执行文件，有两步处理：</p>
+<ul>
+<li><p><strong>编译（Compile）</strong>：每个文件都会被编译成一个目标文件：A.m -&gt; A.o<br><img src="/images/20180327/48993E31-9D13-46F7-AA45-51627E1A7399.png" alt=""></p>
+</li>
+<li><p><strong>链接（Link）</strong>：所有的目标文件都被链接器合并成一个可执行文件：A.o, B.o, … -&gt; MyApp<br><img src="/images/20180327/FD344FBC-A0BB-400F-97ED-F63D244FF4BE.png" alt=""></p>
+</li>
+</ul>
+<h3 id="头文件承诺，编译器信任，链接器验证"><a href="#头文件承诺，编译器信任，链接器验证" class="headerlink" title="头文件承诺，编译器信任，链接器验证"></a>头文件承诺，编译器信任，链接器验证</h3><p>编译和组合（链接）的步骤依赖于来自头文件的信息。</p>
+<h2 id="头文件承诺"><a href="#头文件承诺" class="headerlink" title="头文件承诺"></a>头文件承诺</h2><p>头文件对 API 们做出承诺。就像如下代码：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSString</span> *<span class="built_in">NSTemporaryDirectory</span>();</div></pre></td></tr></table></figure></p>
+<p>表示：</p>
+<blockquote>
+<p>相信我！这儿会有个叫 <code>NSTemporaryDirectory</code> 的方法，如果你没有用任何参数调用它，它会返回一个 <code>NSString *</code>。  </p>
+</blockquote>
+<p>一个这样的接口声明：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">Something</span>: <span class="title">NSObject</span></span></div><div class="line">- (<span class="built_in">BOOL</span>)makeItSo: (<span class="built_in">NSError</span> **)outError;</div><div class="line"><span class="keyword">@end</span></div></pre></td></tr></table></figure></p>
+<p>表示：</p>
+<blockquote>
+<p>听我的：当你需要的时候，会有一个名为 <code>Something</code> 的 <code>NSObject</code> 类型的类。这个类的所有方法？就像这个接口声明的那样，尽管相信我吧！  </p>
+</blockquote>
+<h2 id="编译器信任"><a href="#编译器信任" class="headerlink" title="编译器信任"></a>编译器信任</h2><p>编译器照着这些头文件说的做，并针对他们的承诺检查了它们所提供的实现文件。<br><img src="/images/20180327/6E0FA571-3ED8-4E35-811B-491ED1BA2EE5.png" alt=""></p>
+<p>假如碰到：<br><figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">NSTemporaryDirectory</span>(updatedTemporaryDirectoryPath);</div></pre></td></tr></table></figure><br>它会大发脾气道：</p>
+<blockquote>
+<p>你这什​​么意思，给这东西传个参数！而且会有一个返回值，使劲吹吧！难道还会有人想要有返回值？！  </p>
+</blockquote>
+<p>（编译器非常容易激动，这就是他们如何对工作所需的细节表现出的极度关注。尽管如此，这些行为并没有任何意义。）<br>如果所有东西都检查通过，编译器将会保持安静，完成其工作，并留下从实现代码翻译而来的目标代码后离开。<br>（这个经过翻译的目标代码会被嵌入额外假设，这些额外的假设基于像这些承诺：如何给函数传递参数──传到堆栈上？寄存器中？向量寄存器中？以及从哪里读出返回值？但这里牵涉到需要描述什么是 <code>ABI</code>，所以我们下次再讨论这些。）<br>目标代码完全相信，头文件所承诺的函数定义在后面确实会存在！编译器输出代码，说：“嘿，去调用这个函数吧，虽然我不知道它在哪儿，但有一些头文件承诺它会在那里，所以我只是在这里做一下信任。”<br>结果便是，目标代码带着一堆未定义的引用。所有这些未定义的引用都是关于，什么东西在哪里、有多少个参数，是什么类型的参数与返回值的假设。<br>编译器对这些头文件有很大的信心，是吗？</p>
+<blockquote>
+<p><strong>旁白</strong>：<br>有多少未定义的引用？你自己看！<br>选择一个对象文件 <code>A.o</code> 并运行 <code>nm -u A.o</code>。输出将会是列出该文件所引用的所有未定义名称。<br><code>nm</code> 是一个工具，它以人类可读的方式格式化对象文件所引用的名称的表格，称为符号表。（nm 是 NaMes，懂了吗？），它也可以用来过滤列表，就如这里的 <code>-u</code> 要求它只列出未定义的名字。  </p>
+</blockquote>
+<h2 id="链接器验证"><a href="#链接器验证" class="headerlink" title="链接器验证"></a>链接器验证</h2><p>编译器总结说，“嘿，东西都在这儿了，一些头文件承诺的！”<br>链接器则会说，“把钱拿出来看看”。他们把所有的目标文件堆在一起，并处理了那些未定义的引用。如果有东西没有检查成功，他们会翻桌子，丢出错误，并拒绝继续执行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&gt; cc trust-me.m</div><div class="line">Undefined symbols for architecture x86_64:</div><div class="line">  &quot;_thisWillTotallyBeThere&quot;, referenced from:</div><div class="line">      _main in trust-me-c9e7ba.o</div><div class="line">ld: symbol(s) not found for architecture x86_64</div><div class="line">clang: error: linker command failed with exit code 1 (use -v to see invocation)</div></pre></td></tr></table></figure></p>
+<p>所有的目标文件都被送往链接器，链接器连接它们的外部名称并检查所有的东西是否如实被定义了。如果是的话，链接器会吐出一个可执行文件。<br><img src="/images/20180327/53FF5F54-4066-4AA9-AFC2-85060ECF0AEA.png" alt=""></p>
+<p>当然，还有更多的东西。我们没有触及模块或动态链接（frameworks！dylibs！dlopen！）。如果你觉得不够详细，可以看看<a href="https://www.bignerdranch.com/we-write/advanced-mac-osx-programming/" target="_blank" rel="external">Advanced Mac OS X Programming</a>。</p>
+<h2 id="从-Obj-C-使用-Swift"><a href="#从-Obj-C-使用-Swift" class="headerlink" title="从 Obj-C 使用 Swift"></a>从 Obj-C 使用 Swift</h2><p>呼，这真是有够消遣的了。幸运的是，我们差不多完成了。</p>
+<h3 id="我们来让-Swift-变得看起来像-Obj-C"><a href="#我们来让-Swift-变得看起来像-Obj-C" class="headerlink" title="我们来让 Swift 变得看起来像 Obj-C"></a>我们来让 Swift 变得看起来像 Obj-C</h3><p>Obj-C 的编译依赖于头文件和目标文件。但Swift不需要头文件，而且你可能也从来没有碰到过 Swift 的目标文件。那 Xcode 要如何解决这个问题？<br>当然是给每个 Swift 文件生成单独的头文件了目标文件啦！<br>每个 Swift 文件都会被编译为一个目标文件和一个供 Obj-C 使用的头文件： A.swift -&gt; A.o, A.h<br>这告诉了我们，运行普通的 Obj-C 构建和链接编译管道需要什么东西：</p>
+<ul>
+<li>编译每个.m文件的桥接头文件</li>
+<li>将所有的目标文件（Swift 和 Obj-C）连接成一个可执行文件</li>
+</ul>
+<h3 id="复数桥接头文件"><a href="#复数桥接头文件" class="headerlink" title="复数桥接头文件"></a>复数桥接头文件</h3><p>因为该头文件在 Obj-C 和特定的swift文件的世界之间架起了桥梁，所以它被称为桥接头文件。<br>现在，你可能会遇到这种情况，“你正在添加 Obj-C 文件！到一个 Swift 的项目！你想要一个桥接头文件？”之前在 Xcode 中的提过。这也只是一个桥接头文件，而不是一堆（很多个！每个 Swift 文件一个）桥接头文件。一座桥连接一个堤岸到另一个堤岸，而单数桥接头文件则从 Swift 架往 Obj-C 大陆，复数桥接头文件则从 Obj-C 大陆通往 Swift 之地。</p>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// ===[ CallMeFromObjC.swift ]===</span></div><div class="line"><span class="comment">// 你必须 import Foundation 使其能够调用 Obj-C.</span></div><div class="line"><span class="keyword">import</span> Foundation</div><div class="line"></div><div class="line"><span class="comment">// 一个类若要对 Obj-C 可见则必须继承自 NSObject</span></div><div class="line"><span class="comment">// (如果你想要写一个根类，则必须在 Obj-C 上写)</span></div><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CallMeFromObjC</span>: <span class="title">NSObject</span> </span>&#123;</div><div class="line">    <span class="comment">// 公开你想在 Objc-C 上使用的 API</span></div><div class="line">    <span class="keyword">public</span> <span class="keyword">var</span> name: <span class="type">String</span></div><div class="line">    <span class="keyword">public</span> <span class="keyword">init</span>(name: <span class="type">String</span>) &#123;</div><div class="line">        <span class="keyword">self</span>.name = name</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">public</span> <span class="function"><span class="keyword">func</span> <span class="title">speak</span><span class="params">()</span></span> &#123;</div><div class="line">        <span class="built_in">print</span>(<span class="string">"\(self)'s name is: \(name)"</span>)</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>用编译管道运行下面的粗糙调用：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">install -d build</div><div class="line">xcrun -sdk macosx10.12 \</div><div class="line">  swift -frontend -c -primary-file CallMeFromObjC.swift \</div><div class="line">  -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/ \</div><div class="line">  -module-name Bridgette \</div><div class="line">  -emit-module-path build/Bridgette.swiftmodule \</div><div class="line">  -emit-objc-header-path build/CallMeFromObjC.h \</div><div class="line">  -enable-testing -enable-objc-interop -parse-as-library \</div><div class="line">  -o build/CallMeFromObjC.o</div></pre></td></tr></table></figure></p>
+<p>下面则是它生成的桥接头文件的核心代码：</p>
+<figure class="highlight objc"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">SWIFT_CLASS(<span class="string">"_TtC9Bridgette14CallMeFromObjC"</span>)</div><div class="line"><span class="class"><span class="keyword">@interface</span> <span class="title">CallMeFromObjC</span> : <span class="title">NSObject</span></span></div><div class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">copy</span>) <span class="built_in">NSString</span> * _Nonnull name;</div><div class="line">- (<span class="keyword">nonnull</span> <span class="keyword">instancetype</span>)initWithName:(<span class="built_in">NSString</span> * _Nonnull)name OBJC_DESIGNATED_INITIALIZER;</div><div class="line">- (<span class="keyword">void</span>)speak;</div><div class="line">- (<span class="keyword">nonnull</span> <span class="keyword">instancetype</span>)init SWIFT_UNAVAILABLE;</div><div class="line"><span class="keyword">@end</span></div><div class="line"></div></pre></td></tr></table></figure>
+<p>（为了方便起见省略了大堆顶部的定义，你可以在<a href="https://gist.github.com/e9c2797a32e0522a46c25707ab7653b1" target="_blank" rel="external">这个 gits</a> 里查看完整细节。看他们如何处理警告信息也是很有趣。）</p>
+<h3 id="怎样导入？"><a href="#怎样导入？" class="headerlink" title="怎样导入？"></a>怎样导入？</h3><p>编译和链接 Obj-C 用于 Swift，也意味着编译 Swift 并将其与其他 Swift 链接起来。当编译器为swift文件生成一个目标文件时，它也需要大量的信任。<br>在这种情况下，项目中的其他 Swift 文件允许编译器的外部定义。对，Swift 文件本身就是有效的头文件！<br>从其它文件导入命名到模块中在源码里是隐式的：当你在 A.swift 中编写代码时，你可以自由使用 B.swift 中定义的类型B，并且你只需认为它是可用的就行。如果这是 Obj-C，那就好像你项目中的每个 .m 文件都会自动获得一系列你项目中的每个.h文件的 <code>#imports</code>。<br>尽管如此，Swift 代码并没有 <code>#imports</code> 来命名特定文件，以便将其编译为单个 .swift 文件。因此，不是将模块中的所有文件都在 .swift 文件列入，而是将该列表移至编译器调用：当你编译单个 Swift 文件时，编译器调用会把该模块中别的 Swift 文件都列出来。<br>好消息是，Xcode 正为你编写着这些编译器调用，是吧？</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>Obj-C 编译过程是对提供了为映射步骤带出确实上下文的头文件的映射和合并。映射到目标文件；合并为可执行文件。<br>用 Obj-C 使用 Swift 是为了让 Swift 看起来像 Obj-C，所以普通的 Obj-C 构建管道就能发挥其魔力。为了让 Swift 看起来像 Obj-C，每个 Swift 文件都会被编译成相应的头文件和目标文件。<br>这是一个高层次的概览。要真正理解正在发生的事情，我们需要仔细研究 Xcode 的构建日志以了解所有这些细节。但这又是改天的工作了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https://www.bignerdranch.com/blog/manual-swift-understanding-the-swift-objective-c-build-pipeline/&quot;&gt;Manual Swift: Understanding the Swift/Objective-C Build Pipeline&lt;/a&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Xcode 是如何将 Swift 和 Obj-C 编译到一起的？&lt;br&gt;如果你没有 &lt;code&gt;xcodebuild&lt;/code&gt; 的话，应该要怎么做？&lt;br&gt;我们来看看“编译到一起”两种不同的方式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Obj-C 使用 Swift&lt;/li&gt;
+&lt;li&gt;Swift 使用 Obj-C&lt;br&gt;今天，我们将会使用 Swift 的风格来看待 Obj-C，目的是让你对这些处理过程的线索有个大致理解。改天我们再挖掘这些线索在实际过程中是如何做到的。  &lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://blog.joyingx.me/categories/iOS/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>[译文]用好Xcode的用户断点</title>
